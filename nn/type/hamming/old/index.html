@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://home.agh.edu.pl/~vlsi/AI/hamming_en/sim.html -->
+<html>
+<head>
+	<title>Hamming Network</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<script src="hamming.js"></script>
+</head> 
+<body>
+ <a name="top"></a>
+ <div class="title"><div class="authors"></div></div>
+ <div class="project">
+	<div class="project_shadow">Hamming Neural Network - classifier</div>
+	<div class="project_text">Hamming Neural Network - classifier</div>
+ </div>
+ <div class="header">
+  <a href="http://home.agh.edu.pl/~vlsi/AI/hamming_en/index.html" class="xref-m">Theory</a>
+  </div>
+ <div class="contents">
+ <!-- form start -->
+ <p class="descr2">To simulate the Hamming Network, you should enter the symbol into the left table, by clicking appropriate squares and turning them black.</p>
+ <p class="descr2">Then you should add some noise to examined symbol, by choosing it from the list in the middle. You can see the symbol with noise in the right table.</p>
+ <p class="descr2">Simulation starts when you click the <i>&#8216;Next step&#8217;</i> button. Every next click on it orders the network to do the next iteration. To start the simulation from the beginning click the <i>&#8216;Clear all&#8217;</i> button.</p>
+ <p class="descr2">If your screen resolution is set to 1024x728, it may be convenient to go into the full screen mode, by pressing &lt;F11&gt;.</p><br><hr size="1">
+ <form name="iterations" method="POST">
+ <table border="1" cellspacing="0" cellpadding="0" class="tcenter">
+  <tbody><tr>
+   <td colspan="2"><p class="descr">Input symbol<br>without noise</p></td>
+   <td></td>
+   <td colspan="2"><p class="descr">Input symbol<br>with noise</p></td>
+  </tr>
+  <tr>
+   <!-- For clicks -->
+   <td>
+    <table border="1" cellspacing="1" cellpadding="1">
+     <tbody><tr>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(1)" class="simple"><img src="img/white.gif" name="pic1" border="0" alt="*"></a></td>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(2)" class="simple"><img src="img/white.gif" name="pic2" border="0" alt="*"></a></td>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(3)" class="simple"><img src="img/white.gif" name="pic3" border="0" alt="*"></a></td>
+     </tr>
+     <tr>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(4)" class="simple"><img src="img/white.gif" name="pic4" border="0" alt="*"></a></td>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(5)" class="simple"><img src="img/white.gif" name="pic5" border="0" alt="*"></a></td>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(6)" class="simple"><img src="img/white.gif" name="pic6" border="0" alt="*"></a></td>
+     </tr>
+     <tr>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(7)" class="simple"><img src="img/white.gif" name="pic7" border="0" alt="*"></a></td>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(8)" class="simple"><img src="img/white.gif" name="pic8" border="0" alt="*"></a></td>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(9)" class="simple"><img src="img/white.gif" name="pic9" border="0" alt="*"></a></td>
+     </tr>
+     <tr>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(10)" class="simple"><img src="img/white.gif" name="pic10" border="0" alt="*"></a></td>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(11)" class="simple"><img src="img/white.gif" name="pic11" border="0" alt="*"></a></td>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(12)" class="simple"><img src="img/white.gif" name="pic12" border="0" alt="*"></a></td>
+     </tr>
+     <tr>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(13)" class="simple"><img src="img/white.gif" name="pic13" border="0" alt="*"></a></td>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(14)" class="simple"><img src="img/white.gif" name="pic14" border="0" alt="*"></a></td>
+      <td class="tcenter"><a href="javascript: void 0" onclick="wb(15)" class="simple"><img src="img/white.gif" name="pic15" border="0" alt="*"></a></td>
+     </tr>
+    </tbody></table>
+   </td>
+   <!-- Show what you clicked -->
+   <td width="56" class="tcenter" style="padding-left: 10px">
+    <table border="1" cellspacing="1" cellpadding="1">
+     <tbody><tr>
+      <td class="tnoise" height="16"><input type="text" class="inoise" name="nonoise1" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="nonoise2" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="nonoise3" size="1"></td>
+     </tr>
+     <tr>
+      <td class="tnoise" height="16"><input type="text" class="inoise" name="nonoise4" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="nonoise5" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="nonoise6" size="1"></td>
+     </tr>
+     <tr>
+      <td class="tnoise" height="16"><input type="text" class="inoise" name="nonoise7" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="nonoise8" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="nonoise9" size="1"></td>
+     </tr>
+     <tr>
+      <td class="tnoise" height="16"><input type="text" class="inoise" name="nonoise10" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="nonoise11" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="nonoise12" size="1"></td>
+     </tr>
+     <tr>
+      <td class="tnoise" height="16"><input type="text" class="inoise" name="nonoise13" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="nonoise14" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="nonoise15" size="1"></td>
+     </tr>
+    </tbody></table>
+   </td>
+   
+   <td width="250" class="tcenter">
+     <select name="jaki_noise" onchange="generateNoise()">
+      <option value="5" selected="">Choose noise</option>
+      <option value="0">no noise</option>
+      <option value="1">small noise (0-0,25)</option>
+      <option value="2">medium noise (0-0,33)</option>
+      <option value="3">strong noise (0-0,5)</option>
+     </select><br>
+   </td>
+   <!-- Here you show shades of gray -->
+   <td>
+    <table border="1" cellspacing="1" cellpadding="1">
+     <tbody>
+	 <tr>
+      <td class="tcenter"><img src="img/white.gif" name="picgr1" border="0" alt="*"></td>
+      <td class="tcenter"><img src="img/white.gif" name="picgr2" border="0" alt="*"></td>
+      <td class="tcenter"><img src="img/white.gif" name="picgr3" border="0" alt="*"></td>
+     </tr>
+     <tr>
+      <td class="tcenter"><img src="img/white.gif" name="picgr4" border="0" alt="*"></td>
+      <td class="tcenter"><img src="img/white.gif" name="picgr5" border="0" alt="*"></td>
+      <td class="tcenter"><img src="img/white.gif" name="picgr6" border="0" alt="*"></td>
+     </tr>
+     <tr>
+      <td class="tcenter"><img src="img/white.gif" name="picgr7" border="0" alt="*"></td>
+      <td class="tcenter"><img src="img/white.gif" name="picgr8" border="0" alt="*"></td>
+      <td class="tcenter"><img src="img/white.gif" name="picgr9" border="0" alt="*"></td>
+     </tr>
+     <tr>
+      <td class="tcenter"><img src="img/white.gif" name="picgr10" border="0" alt="*"></td>
+      <td class="tcenter"><img src="img/white.gif" name="picgr11" border="0" alt="*"></td>
+      <td class="tcenter"><img src="img/white.gif" name="picgr12" border="0" alt="*"></td>
+     </tr>
+     <tr>
+      <td class="tcenter"><img src="img/white.gif" name="picgr13" border="0" alt="*"></td>
+      <td class="tcenter"><img src="img/white.gif" name="picgr14" border="0" alt="*"></td>
+      <td class="tcenter"><img src="img/white.gif" name="picgr15" border="0" alt="*"></td>
+     </tr>
+    </tbody></table>
+   </td>
+   <td width="56" class="tcenter" style="padding-left: 10px">
+    <table border="1" cellspacing="1" cellpadding="1">
+     <tbody><tr>
+      <td class="tnoise" height="16"><input type="text" class="inoise" name="noise1" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="noise2" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="noise3" size="1"></td>
+     </tr>
+     <tr>
+      <td class="tnoise" height="16"><input type="text" class="inoise" name="noise4" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="noise5" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="noise6" size="1"></td>
+     </tr>
+     <tr>
+      <td class="tnoise" height="16"><input type="text" class="inoise" name="noise7" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="noise8" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="noise9" size="1"></td>
+     </tr>
+     <tr>
+      <td class="tnoise" height="16"><input type="text" class="inoise" name="noise10" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="noise11" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="noise12" size="1"></td>
+     </tr>
+     <tr>
+      <td class="tnoise" height="16"><input type="text" class="inoise" name="noise13" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="noise14" size="1"></td>
+      <td class="tnoise"><input type="text" class="inoise" name="noise15" size="1"></td>
+     </tr>
+    </tbody></table>
+   </td>
+  </tr>
+ </tbody></table>
+ <p class="center">
+  <a href="javascript: void 0" onclick="maxnet()" class="button">Next step</a>
+  <a href="index.html" class="button">Clear all</a>
+ </p>
+ <br><a name="start"><br>
+  <table width="100%">
+   <tbody><tr>
+    <td>
+     <table border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+       <td width="25"></td>
+       <td width="50" class="tcenter"><input type="text" name="input1" size="1" value="-"></td>
+       <td width="50" class="tcenter"><input type="text" name="input2" size="1" value="-"></td>
+       <td width="50" class="tcenter"><input type="text" name="input3" size="1" value="-"></td>
+       <td width="50" class="tcenter"><input type="text" name="input4" size="1" value="-"></td>
+       <td width="50" class="tcenter"><input type="text" name="input5" size="1" value="-"></td>
+       <td width="50" class="tcenter"><input type="text" name="input6" size="1" value="I"></td>
+       <td width="50" class="tcenter"><input type="text" name="input7" size="1" value="N"></td>
+       <td width="50" class="tcenter"><input type="text" name="input8" size="1" value="P"></td>
+       <td width="50" class="tcenter"><input type="text" name="input9" size="1" value="U"></td>
+       <td width="50" class="tcenter"><input type="text" name="inputa" size="1" value="T"></td>
+       <td width="50" class="tcenter"><input type="text" name="inputb" size="1" value="-"></td>
+       <td width="50" class="tcenter"><input type="text" name="inputc" size="1" value="-"></td>
+       <td width="50" class="tcenter"><input type="text" name="inputd" size="1" value="-"></td>
+       <td width="50" class="tcenter"><input type="text" name="inpute" size="1" value="-"></td>
+       <td width="50" class="tcenter"><input type="text" name="inputf" size="1" value="-"></td>
+      </tr>     
+      <tr>
+       <td width="25" height="243"></td>
+       <td width="50" height="243" style="background: url(img/net01.gif)" class="tcenter">&nbsp;</td>
+       <td width="50" height="243" style="background: url(img/net02.gif)" class="tcenter">&nbsp;</td>
+       <td width="50" height="243" style="background: url(img/net03.gif)" class="tcenter">&nbsp;</td>
+       <td width="50" height="243" style="background: url(img/net04.gif)" class="tcenter">&nbsp;</td>
+       <td width="50" height="243" style="background: url(img/net05.gif)" class="tcenter">&nbsp;</td>
+       <td width="50" height="243" style="background: url(img/net06.gif)" class="tcenter">&nbsp;</td>
+       <td width="50" height="243" style="background: url(img/net07.gif)" class="tcenter">&nbsp;</td>
+       <td width="50" height="243" style="background: url(img/net08.gif)" class="tcenter">&nbsp;</td>
+       <td width="50" height="243" style="background: url(img/net09.gif)" class="tcenter">&nbsp;</td>
+       <td width="50" height="243" style="background: url(img/net0a.gif)" class="tcenter">&nbsp;</td>
+       <td width="50" height="243" style="background: url(img/net0b.gif)" class="tcenter">&nbsp;</td>
+       <td width="50" height="243" style="background: url(img/net0c.gif)" class="tcenter">&nbsp;</td>
+       <td width="50" height="243" style="background: url(img/net0d.gif)" class="tcenter">&nbsp;</td>
+       <td width="50" height="243" style="background: url(img/net0e.gif)" class="tcenter">&nbsp;</td>
+       <td width="50" height="243" style="background: url(img/net0f.gif)" class="tcenter">&nbsp;</td>
+      </tr>
+     </tbody></table>
+     <table border="0" cellspacing="0" cellpadding="0" width="921">
+      <tbody><tr>
+       <td width="100" height="328" valign="top" style="background: url(img/net11.gif)" class="tcenter"><input type="text" name="warstwa1" size="1" value="-"></td>
+       <td width="100" height="328" valign="top" style="background: url(img/net12.gif)" class="tcenter"><input type="text" name="warstwa2" size="1" value="M"></td>
+       <td width="100" height="328" valign="top" style="background: url(img/net13.gif)" class="tcenter"><input type="text" name="warstwa3" size="1" value="I"></td>
+       <td width="100" height="328" valign="top" style="background: url(img/net14.gif)" class="tcenter"><input type="text" name="warstwa4" size="1" value="D"></td>
+       <td width="100" height="328" valign="top" style="background: url(img/net15.gif)" class="tcenter"><input type="text" name="warstwa5" size="1" value="D"></td>
+       <td width="100" height="328" valign="top" style="background: url(img/net16.gif)" class="tcenter"><input type="text" name="warstwa6" size="1" value="L"></td>
+       <td width="100" height="328" valign="top" style="background: url(img/net17.gif)" class="tcenter"><input type="text" name="warstwa7" size="1" value="E"></td>
+       <td width="100" height="328" valign="top" style="background: url(img/net18.gif)" class="tcenter"><input type="text" name="warstwa8" size="1" value="-"></td>
+       <td width="121" height="328" style="background: url(img/net19.gif)"></td>
+      </tr>
+      <tr>
+       <td width="100" class="tcenter"><input type="text" name="wyjscie1" size="1" value="-"></td>
+       <td width="100" class="tcenter"><input type="text" name="wyjscie2" size="1" value="O"></td>
+       <td width="100" class="tcenter"><input type="text" name="wyjscie3" size="1" value="U"></td>
+       <td width="100" class="tcenter"><input type="text" name="wyjscie4" size="1" value="T"></td>
+       <td width="100" class="tcenter"><input type="text" name="wyjscie5" size="1" value="P"></td>
+       <td width="100" class="tcenter"><input type="text" name="wyjscie6" size="1" value="U"></td>
+       <td width="100" class="tcenter"><input type="text" name="wyjscie7" size="1" value="T"></td>
+       <td width="100" class="tcenter"><input type="text" name="wyjscie8" size="1" value="-"></td>
+      </tr>
+     </tbody></table>
+    </td>
+   </tr>
+  </tbody></table>
+  <br>
+ 
+ </a></form></div><a name="start">
+ </a><div class="footer0"><a name="start">
+  </a><a href="http://home.agh.edu.pl/~vlsi/AI/hamming_en/index.html" class="xref-f">Theory</a>
+ </div>
+ <div class="footer">
+  <a href="http://home.agh.edu.pl/~vlsi/AI/hamming_en/sim.html#top" class="xref-f">To the top</a>
+ </div>
+</body>
+</html>

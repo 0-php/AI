@@ -1,0 +1,16 @@
+Wild Life - Genetic simulation
+
+Genes:
+
+Speed
+Attack
+Health
+Sociality (keeping with it's species)
+Areal: (supported terrain types)
+
+Terrains:
+
+Grass
+Prairie
+Forest
+Lake

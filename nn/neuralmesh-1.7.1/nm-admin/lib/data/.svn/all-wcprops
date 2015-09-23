@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/neuralmesh/!svn/ver/13/branches/louisstow-1.6.7/nm-admin/lib/data
+END
+users.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/neuralmesh/!svn/ver/36/branches/louisstow-1.6.7/nm-admin/lib/data/users.xml
+END
+cache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/neuralmesh/!svn/ver/42/branches/louisstow-1.6.7/nm-admin/lib/data/cache.xml
+END
+validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/neuralmesh/!svn/ver/36/branches/louisstow-1.6.7/nm-admin/lib/data/validation.xml
+END
+networks.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/neuralmesh/!svn/ver/42/branches/louisstow-1.6.7/nm-admin/lib/data/networks.xml
+END
+pattern.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/neuralmesh/!svn/ver/13/branches/louisstow-1.6.7/nm-admin/lib/data/pattern.xml
+END
+train.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/neuralmesh/!svn/ver/13/branches/louisstow-1.6.7/nm-admin/lib/data/train.xml
+END
+epoch.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/neuralmesh/!svn/ver/36/branches/louisstow-1.6.7/nm-admin/lib/data/epoch.xml
+END
+navigation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/neuralmesh/!svn/ver/42/branches/louisstow-1.6.7/nm-admin/lib/data/navigation.xml
+END

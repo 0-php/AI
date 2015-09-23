@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/neuralmesh/!svn/ver/25/branches/louisstow-1.6.7/nm-admin/lib/proxy
+END
+db.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/neuralmesh/!svn/ver/40/branches/louisstow-1.6.7/nm-admin/lib/proxy/db.class.php
+END
+usernetwork.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/neuralmesh/!svn/ver/40/branches/louisstow-1.6.7/nm-admin/lib/proxy/usernetwork.class.php
+END
+network.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/neuralmesh/!svn/ver/42/branches/louisstow-1.6.7/nm-admin/lib/proxy/network.class.php
+END
+nmesh.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/neuralmesh/!svn/ver/42/branches/louisstow-1.6.7/nm-admin/lib/proxy/nmesh.class.php
+END
+validation.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/neuralmesh/!svn/ver/36/branches/louisstow-1.6.7/nm-admin/lib/proxy/validation.class.php
+END
+train.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/neuralmesh/!svn/ver/40/branches/louisstow-1.6.7/nm-admin/lib/proxy/train.class.php
+END
+navigation.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/neuralmesh/!svn/ver/13/branches/louisstow-1.6.7/nm-admin/lib/proxy/navigation.class.php
+END
+patterns.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/neuralmesh/!svn/ver/40/branches/louisstow-1.6.7/nm-admin/lib/proxy/patterns.class.php
+END
+epochs.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/neuralmesh/!svn/ver/40/branches/louisstow-1.6.7/nm-admin/lib/proxy/epochs.class.php
+END
+users.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/neuralmesh/!svn/ver/42/branches/louisstow-1.6.7/nm-admin/lib/proxy/users.class.php
+END
+cache.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/neuralmesh/!svn/ver/42/branches/louisstow-1.6.7/nm-admin/lib/proxy/cache.class.php
+END

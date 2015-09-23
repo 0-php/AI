@@ -1,0 +1,30 @@
+void setup(){
+	size(200, 200);
+	smooth();
+	creature = new Creature(10, 1);
+}
+
+void draw(){
+	background(204);
+	creature.move();
+}
+
+//Params: size, speed
+class Creature extends Ring {
+	int x = randomRange(0, width, true);
+	int y = randomRange(0, height, true);
+	Creature(sz, sp){
+		size = sz;
+		speed = sp;
+	}
+	void move(){
+		x += speed;
+		super(x, y, size);
+		creature.display();
+	}
+}
+
+function randomRange(minVal, maxVal, whole){
+	var randVal = minVal + (Math.random() * (maxVal - minVal));
+	return whole ? Math.floor(randVal) : randVal;
+}

@@ -1,0 +1,9 @@
+#!/bin/bash -l
+#PBS -l nodes=1:ppn=4,mem=50gb,walltime=10:00:00
+#PBS -m abe
+
+cd $PBS_O_WORKDIR
+
+mpirun -np 4 ./ngram $ROOT $UCUTOFF $ACUTOFF $IFILE > output
+
+

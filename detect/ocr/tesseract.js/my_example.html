@@ -1,0 +1,23 @@
+<canvas id='c'></canvas>
+<script type="text/javascript" src="lib/Tesseract.2015.07.26.js"></script>
+<script type="text/javascript">
+	var canvas = document.getElementById('c')
+	canvas.width = 464;
+	canvas.height = 479;
+	var ctx = canvas.getContext('2d');
+
+	var img = new Image();
+
+    //drawing of the test image - img1
+    img.onload = function () {
+        //draw background image
+        ctx.drawImage(img, 0, 0);
+		Tesseract.recognize(canvas,{
+			lang: 'eng',
+			progress: function(e){
+				console.log(e)
+			}
+		}).then(function(d){ console.log(d); })
+    };
+    img.src = 'Game library size comparison.png';
+</script>

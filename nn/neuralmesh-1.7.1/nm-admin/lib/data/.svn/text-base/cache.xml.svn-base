@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE queries[]>
+<queries>
+	<!-- Get from the cache -->
+	<query name="get">
+	<![CDATA[
+	SELECT cacheContent
+	FROM cache
+	WHERE cacheID = MD5(:id)
+	]]>
+	</query>
+	
+	<!-- Save into cache, replace existing -->
+	<query name="save">
+	<![CDATA[
+	DELETE FROM cache WHERE cacheID = MD5(:id);
+	INSERT INTO cache
+	VALUES (MD5(:id),:network,:data,now());
+	]]>
+	</query>
+	
+	<!-- Clear the cache -->
+	<query name="clear">
+	<![CDATA[
+	DELETE FROM cache
+	WHERE DATEDIFF(now(),cacheDate) > :n
+	]]>
+	</query>
+	
+	<query name="clearAll">
+	<![CDATA[
+	TRUNCATE TABLE cache
+	]]>
+	</query>
+</queries>

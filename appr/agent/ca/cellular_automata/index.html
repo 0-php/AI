@@ -1,0 +1,98 @@
+<html lang="en" class="js">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>HTML5 Canvas Cellular Automaton</title>
+		<link rel="stylesheet" href="ca.css" type="text/css">
+		<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="jquery-base64.js"></script>
+		<script type="text/javascript" src="ElementaryCA.js"></script>
+		<script type="text/javascript" src="CACanvas.js"></script>
+		<script type="text/javascript" src="QueryString.js"></script>
+		<script type="text/javascript" src="ca.js"></script>
+		<script type="text/javascript">
+			var $jq = jQuery.noConflict();
+			$jq("html").addClass("js"); /* Register that JS is active. */
+			$jq(document).ready(function(){
+				init();
+				go();
+			});
+		</script>
+</head>
+<body>
+  <h1>Elementary Cellular Automata in HTML5 Canvas <a href="#" id="toggleAbout">(what is this?)</a></h1>
+  <!-- <p id="sideToggler"><a href="#" id="tglSidebar"><img id="tglSbImg" src="sidebarClose.png"></a></p> -->
+  <div id="sidebar">
+    <div id="sidebarHideable">
+      <form id="prefs">
+        <ol>
+          <li>
+            <label class="cname">Chime when done?</label>
+            <input id="playChime" name="playChime" type="checkbox" onclick="togglePlayChime()">
+            <audio id="chime" preload="">
+              <source src="chime.mp3">
+			  <source src="chime.ogg">
+			</audio>
+          </li>
+        </ol>
+      </form>
+    </div>
+  </div>
+  <div id="main">
+    <div id="caControls">
+      <form id="caControl" onsubmit="go(); return false;">
+          <ol>
+            <li>
+              <div class="tip">Range: 0–255 — try <a href="http://en.wikipedia.org/wiki/Rule_30">30</a> 57 <a href="http://en.wikipedia.org/wiki/Elementary_cellular_automaton#Rule_60">60</a> 89 <a href="http://en.wikipedia.org/wiki/Rule_90">90</a> <a href="http://en.wikipedia.org/wiki/Rule_110">110</a> 126 169 <a href="http://en.wikipedia.org/wiki/Rule_184">184</a>; see <a href="http://mathworld.wolfram.com/ElementaryCellularAutomaton.html">here</a> &amp; <a href="http://en.wikipedia.org/wiki/Elementary_cellular_automaton">here</a>.</div>
+              <label class="cname">Use rule</label>
+              <input id="rule" name="rule" type="text" value="30" onchange="go()" autofocus=""> <button type="button" id="rndRule" onclick="chooseRandomRule()">random</button>
+              <!-- Hack for autofocus on non-fully-HTML5-complint browsers. -->
+              <script>
+                if(!("autofocus" in document.createElement("input"))){
+                  document.getElementById("rule").focus();
+                }
+              </script>
+            </li>
+            <li>
+              <div class="tip">Width × height.</div>
+              <label class="cname">Set canvas size to</label>
+              <input id="width" name="width" type="text" value="500" onchange="go()"> × <input id="height" name="height" type="text" value="500" onchange="go()">
+            </li>
+            <li>
+              <div class="tip">Increase (e.g. to 50, 100, 500...) for speedup when drawing large canvases.</div>
+              <label class="cname" for="drawEvery">Draw to canvas every</label>
+              <input id="drawEvery" name="drawEvery" type="text" value="50" onchange="go()"> &nbsp; rows
+            </li>
+            <li>
+              <div class="tip">Usually a centred singleton; some rules better with random, e.g. 184.</div>
+              <label class="cname" for="startState">Start state is</label>
+              <select name="startState" id="startState" onchange="go()">
+                <option id="singleton-left" value="singleton-left">single 1 (left)</option>
+                <option value="singleton-centred" selected="">single 1 (centre)</option>
+                <option value="singleton-right">single 1 (right)</option>
+                <option value="random">random</option>
+              </select>
+            </li>
+            <li>
+              <div class="tip">If yes, canvas behaves as a cylinder; if no, it's a rectangle.</div>
+              <label class="cname" for="wrapEdges">Wrap at edges?</label>
+              <input id="wrapEdges" name="wrapEdges" type="checkbox" onchange="go()" checked="">
+            </li>
+            <li>
+              <div class="btn">
+                <button type="button" id="startStopBtn">Restart</button>
+                <button type="button" id="toPNG" onclick="canvasToPng()">To PNG</button>
+                <a id="permalink" href="http://www.cs.swan.ac.uk/~csandy/research/play/ca/?rule=202&amp;width=500&amp;height=500&amp;drawEvery=50&amp;startState=singleton-centred&amp;wrapEdges=on">link</a>
+              </div>
+            </li>
+          </ol>
+      </form>
+      <div id="about" style="display: none; ">
+       <p>This is an implementation by <a href="http://www.cs.swan.ac.uk/~csandy/">Andy Gimblett</a> of <a href="http://en.wikipedia.org/wiki/Elementary_cellular_automaton">Elementary Cellular Automata</a> using the HTML5 canvas.  I did this as an exercise in learning canvas and to remind myself how Javascript works.  :-)</p>
+       <p>The code is fairly concise and reasonably <a href="http://www.jslint.com/">jslint</a>-clean, depending on the options used: <a href="ElementaryCA.js">ElementaryCA.js</a>, <a href="CACanvas.js">CACanvas.js</a>, <a href="ca.js">ca.js</a>.</p>
+       <p><strong>Todo</strong>: form validation; save last parameters used, using HTML5 local storage; improve "save as png" handling.</p>
+          </div>
+    <div id="output">
+      <p><canvas id="ca" width="610" height="512"></canvas></p>
+    </div>
+  </div>
+</body></html>

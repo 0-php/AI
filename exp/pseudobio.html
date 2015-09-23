@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>Pseudobiological way of AI</title>
+	<script src='../../lib/js/jquery/jquery.js'></script>
+	<script src='classes/pseudobio.js'></script>
+	<script>
+		pseudobio.init();
+		function run(){
+			pseudobio.add_data($('#input').val());
+		}
+	</script>
+</head>
+<body>
+	<input id='input'></input>
+	<button onclick='run()'>Run</button>
+</body>
+</html>

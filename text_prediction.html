@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Text prediction</title>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+	<script src='classes/learner.js'></script>
+    <script>
+        function predict(){
+			learner.learn($('#input').val());
+        }
+    </script>
+</head>
+<body>
+	<b>Text input:</b><br>
+	<textarea id='input' onkeyup='predict()'></textarea><br>
+    Next symbol: <div id='predicted'></div>
+	Log: <div id='log'></div>
+</body>
+</html>

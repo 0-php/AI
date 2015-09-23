@@ -1,0 +1,5 @@
+http://www.faceplusplus.com/demo-detect/		Cool							100
+https://www.projectoxford.ai/demo/face#detection	Microsoft						100
+http://www.betafaceapi.com/demo.html			Measurements: age, a lot of features			100
+https://rekognition.com/demo/face			Measurements						100
+https://lambdal.com/face-recognition-api#src		coordinates of face elements				80

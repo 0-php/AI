@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nudity Detection with HTMLCanvas and Javascript</title>
+		<link rel="stylesheet" type="text/css" href="tests/style.css" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1>Scan picture</h1>
+			<div class="entry">
+				<img id="testImage" src="1.jpg" width="500" height="375" alt="" />
+				<div class="btn" onclick="nude.load('testImage');nude.scan(function(result){ if(!result) document.getElementById('result1').innerHTML='No nude!'; });">Scan Image</div>
+				<div style="float:right;margin-top:-20px;" id="result1"></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/nude.js"></script>
+	</body>
+</html>

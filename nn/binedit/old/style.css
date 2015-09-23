@@ -1,0 +1,45 @@
+#screenView { border:2px solid #add488; }
+
+.ui-binedit { border: 1px solid black; padding: 0px; }
+
+.ui-binedit-cell {
+
+    width:25px;
+
+    height: 25px;
+
+    align: center;
+
+    background: black;
+
+    cursor: pointer;
+
+}
+
+.ui-binedit-cell.checked {
+
+    background: white;
+
+}
+
+#binaryOutput {
+
+    font-size: 12px;
+
+    width:330px;
+
+    height:150px;
+
+    text-align: center;
+
+}
+
+#screenView {
+
+    font-size: 8pt;
+
+}
+
+button { padding:5px; border:1px solid #4ad300; background:#e4ffd5; width:60px; color:#308900; text-decoration:none; margin:5px 0; font-family:Verdana }
+
+.button { padding:5px; border:1px solid #4ad300; background:#e4ffd5; color:#308900; text-decoration:none; font-family:Verdana }

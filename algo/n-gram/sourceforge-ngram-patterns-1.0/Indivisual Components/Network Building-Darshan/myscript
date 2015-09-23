@@ -1,0 +1,12 @@
+#!/bin/bash -l
+#PBS -l walltime=1:00:00,pmem=3gb,nodes=16:ppn=2
+#PBS -m abe
+
+module unload intelmpi
+module load pathmpi
+
+cd $PBS_O_WORKDIR
+
+mpirun -np 32 -hostfile $PBS_NODEFILE ./oput.exe $ROOT > output.txt
+
+

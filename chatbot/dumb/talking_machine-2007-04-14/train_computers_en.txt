@@ -1,0 +1,1222 @@
+A computer network is multiple computers connected together using a telecommunication system for the purpose of communicating and sharing resources.
+
+Experts in the field of networking debate whether two computers that are connected together using some form of communications medium constitute a network. Therefore, some works state that a network requires three connected computers. For example, "Telecommunications: Glossary of Telecommunication Terms" [1] states that a computer network is "A network of data processing nodes that are interconnected for the purpose of data communication", the term "network" being defined in the same document as "An interconnection of three or more communicating entities". A computer connected to a non-computing device (e.g., networked to a printer via an Ethernet link) may also represent a computer network, although this article does not address this configuration.
+
+This article uses the definition which requires two or more computers to be connected together to form a network.[2] The same basic functions are generally present in this case as with larger numbers of connected computers.
+
+Contents [hide]
+1 Basic components of computer networks 
+1.1 Computers 
+1.2 Printers 
+1.3 Thin Clients 
+1.4 Other devices 
+2 Building a computer network 
+2.1 A simple network 
+2.2 Practical networks 
+3 Types of networks: 
+3.1 A personal area network (PAN) : 
+3.2 Local Area Network (LAN): 
+3.3 Campus Area Network (CAN): 
+3.4 Metropolitan Area Network (MAN): 
+3.5 Wide Area Networks (WAN): 
+3.6 Internetwork: 
+3.7 Intranet: 
+3.8 Extranet: 
+4 Classification of computer networks 
+4.1 By network layer 
+4.2 By scale 
+4.3 By connection method 
+4.4 By functional relationship 
+4.5 By network topology 
+4.6 By services provided 
+4.7 By protocol 
+5 See also 
+6 References 
+7 External links 
+ 
+
+
+[edit] Basic components of computer networks
+
+[edit] Computers
+Many of the components of an average network are individual computers, which are generally either workstations (including personal computers) or servers. 
+Types of workstations 
+There are many types of workstations that may be incorporated into a particular network, some of which have high-end displays, multiple CPUs, large amounts of RAM, large amounts of hard drive storage space, or other enhancements required for special data processing tasks, graphics, or other resource intensive applications. (See also network computer). 
+Types of servers 
+The following lists some common types of servers and their purpose. 
+File server 
+Stores various types of files and distributes them to other clients on the network. 
+Print server 
+Controls and manages one or more printers and accepts print jobs from other network clients, spooling the print jobs, and performing most or all of the other functions that a workstation would perform to accomplish a printing task if the printer were connected directly to the workstation's printer port. 
+Mail server 
+Stores, sends, receives, routes, and performs other email related operations for other clients on the network. 
+Fax server 
+Stores, sends, receives, routes, and performs other functions necessary for the proper transmission, reception, and distribution of faxes. 
+Telephony server 
+Performs telephony related functions such as answering calls automatically, performing the functions of an interactive voice response system, storing and serving voice mail, routing calls between the Public Switched Telephone Network (PSTN) and the network or the Internet (e.g., voice over IP (VoIP) gateway), etc. 
+Proxy server 
+Performs some type of function on behalf of other clients on the network to increase the performance of certain operations (e.g., prefetching and caching documents or other data that are requested very frequently) or as a security precaution to isolate network clients from external threats. 
+Remote Access Server (RAS) 
+Monitors modem lines or other network communications channels for requests to connect to the network from a remote location, answers the incoming telephone call or acknowledges the network request, and performs the necessary security checks and other procedures necessary to log a user onto the network. 
+Application server 
+Performs the data processing or business logic portion of a client application, accepting instructions for operations to perform from a workstation and serving the results back to the workstation, while the workstation performs the user interface or GUI portion of the processing (i.e., the presentation logic) that is required for the application to work properly. 
+Web server 
+Stores HTML documents, images, text files, scripts, and other Web related data (collectively known as content), and distributes this content to other clients on the network on request. 
+Backup server 
+Has network backup software installed and has large amounts of hard drive storage or other forms of storage (tape, etc.) available to it to be used for the purpose of ensuring that data loss does not occur in the network.''' 
+Game server 
+Dedicated computer system running game hosting software. Most run 24/7. 
+
+[edit] Printers
+Many printers are capable of acting as part of a computer network without any other device, such as a print server, to act as an intermediary between the printer and the device that is requesting a print job to be completed. 
+
+[edit] Thin Clients
+Many networks use thin clients instead of workstations either for data entry and display purposes or in some cases where the application runs entirely on the server. 
+
+[edit] Other devices
+There are many other types of devices that may be used to build a network, many of which require an understanding of more advanced computer networking concepts before they are able to be easily understood (e.g., hubs, routers, bridges, switches, hardware firewalls, etc.). On home and mobile networks, connecting consumer electronics devices such as video game consoles is becoming increasingly common. 
+
+[edit] Building a computer network
+
+[edit] A simple network
+A simple computer network may be constructed from two computers by adding a network adapter (Network Interface Controller (NIC)) to each computer and then connecting them together with a special cable called a crossover cable. This type of network is useful for transferring information between two computers that are not normally connected to each other by a permanent network connection or for basic home networking applications. Alternatively, a network between two computers can be established without dedicated extra hardware by using a standard connection such as the RS-232 serial port on both computers, connecting them to each other via a special crosslinked null modem cable. 
+
+[edit] Practical networks
+Practical networks generally consist of more than two interconnected computers and generally require special devices in addition to the Network Interface Controller that each computer needs to be equipped with. Examples of some of these special devices are listed above under Basic Computer Network Building Blocks / Other devices. 
+
+[edit] Types of networks:
+Below is a list of the most common types of computer networks. 
+
+[edit] A personal area network (PAN) :
+A personal area network (PAN) is a computer network used for communication among computer devices (including telephones and personal digital assistants) close to one person. The devices may or may not belong to the person in question. The reach of a PAN is typically a few meters. PANs can be used for communication among the personal devices themselves (intrapersonal communication), or for connecting to a higher level network and the Internet (an uplink). 
+Personal area networks may be wired with computer buses such as USB and FireWire. A wireless personal area network (WPAN) can also be made possible with network technologies such as IrDA and Bluetooth. 
+
+
+
+
+[edit] Local Area Network (LAN):
+A network that is limited to a relatively small spatial area such as a room, a single building, a ship, or an aircraft. Local area networks are sometimes called a single location network. 
+Note: For administrative purposes, large LANs are generally divided into smaller logical segments called workgroups. A workgroup is a group of computers that share a common set of resources within a LAN. 
+
+[edit] Campus Area Network (CAN):
+A network that connects two or more LANs but that is limited to a specific (possibly private) geographical area such as a college campus, industrial complex, or a military base 
+Note: A CAN is generally limited to an area that is smaller than a Metropolitan Area Network. 
+
+[edit] Metropolitan Area Network (MAN):
+A network that connects two or more Local Area Networks or CANs together but does not extend beyond the boundaries of the immediate town, city, or metropolitan area. Multiple routers, switches & hubs are connected to create a MAN 
+
+[edit] Wide Area Networks (WAN):
+A WAN is a data communications network that covers a relatively broad geographic area and that often uses transmission facilities provided by common carriers, such as telephone companies. WAN technologies generally function at the lower three layers of the OSI reference model: the physical layer, the data link layer, and the network layer. 
+Types of WANs:
+
+Centralized: 
+A centralized WAN consists of a central computer that is connected to dumb terminals and / or other types of terminal devices. 
+Distributed: 
+A distributed WAN consists of two or more computers in different locations and may also include connections to dumb terminals and other types of terminal devices. 
+
+[edit] Internetwork:
+Two or more networks or network segments connected using devices that operate at layer 3 (the 'network' layer) of the OSI Basic Reference Model, such as a router. 
+Note: Any interconnection among or between public, private, commercial, industrial, or governmental networks may also be defined as an internetwork. 
+Internet, The: 
+A specific internetwork, consisting of a worldwide interconnection of governmental, academic, public, and private networks based upon the Advanced Research Projects Agency Network (ARPANET) developed by ARPA of the U.S. Department of Defense – also home to the World Wide Web (WWW) and referred to as the 'Internet' with a capital 'I' to distinguish it from other generic internetworks. 
+
+[edit] Intranet:
+A network or internetwork that is limited in scope to a single organization or entity or, also, a network or internetwork that is limited in scope to a single organization or entity and which uses the TCP/IP protocol suite, HTTP, FTP, and other network protocols and software commonly used on the Internet. 
+Note: Intranets may also be categorized as a LAN, CAN, MAN, WAN, or other type of network. 
+
+[edit] Extranet:
+A network or internetwork that is limited in scope to a single organization or entity but which also has limited connections to the networks of one or more other usually, but not necessarily, trusted organizations or entities (e.g., a company's customers may be provided access to some part of its intranet thusly creating an extranet while at the same time the customers may not be considered 'trusted' from a security standpoint). 
+Note: Technically, an extranet may also be categorized as a CAN, MAN, WAN, or other type of network, although, by definition, an extranet cannot consist of a single LAN, because an extranet must have at least one connection with an outside network. 
+Intranets and extranets may or may not have connections to the Internet. If connected to the Internet, the intranet or extranet is normally protected from being accessed from the Internet without proper authorization. The Internet itself is not considered to be a part of the intranet or extranet, although the Internet may serve as a portal for access to portions of an extranet. 
+
+[edit] Classification of computer networks
+This article or section does not adequately cite its references or sources.
+Please help improve this article by adding citations to reliable sources. (help, get involved!)
+Any material not supported by sources may be challenged and removed at any time. This article has been tagged since December 2006.
+
+[edit] By network layer
+Computer networks may be classified according to the network layer at which they operate according to some basic reference models that are considered to be standards in the industry such as the seven layer OSI reference model and the five layer TCP/IP model.
+
+
+[edit] By scale
+Computer networks may be classified according to the scale or extent of reach of the network, for example as a Personal area network (PAN), Local area network (LAN), Campus area network (CAN), Metropolitan area network (MAN), or Wide area network (WAN).
+
+
+[edit] By connection method
+Computer networks may be classified according to the technology that is used to connect the individual devices in the network such as HomePNA, Power line communication, Ethernet, or Wireless LAN.
+
+
+[edit] By functional relationship
+Computer networks may be classified according to the functional relationships which exist between the elements of the network, for example Active Networking, Client-server and Peer-to-peer (workgroup) architectures. Also, computer networks are used to send data from one to another by the hardrive
+
+
+[edit] By network topology
+Computer networks may be classified according to the network topology upon which the network is based, such as Bus network, Star network, Ring network, Mesh network, Star-bus network, Tree or Hierarchical topology network, etc.
+
+Topology can be arranged in a Geometric Arragement
+
+
+[edit] By services provided
+Computer networks may be classified according to the services which they provide, such as Storage area networks, Server farms, Process control networks, Value-added network, Wireless community network, etc.
+
+
+[edit] By protocol
+Computer networks may be classified according to the communications protocol that is being used on the network. See the articles on List of network protocol stacks and List of network protocols for more information.
+
+
+[edit] See also
+Computer networking 
+Computer networking device 
+Wireless network 
+Node (networking) 
+Network topology 
+Expander graph 
+Scale-free network 
+Network diagram 
+Internet 
+History of the Internet 
+
+[edit] References
+^ Error on call to Template:cite web: Parameters url and title must be specified. Institute for telecommunication sciences (1996-08-07). Retrieved on January 14, 2007. 
+^ Groth, David; Toby Skandier (2005). 'Network+ Study Guide, Fourth Edition'. Sybex, Inc.. ISBN 0-7821-4406-3. “the term network describes two or more connected computers”  
+This article contains material from the Federal Standard 1037C, which, as a work of the United States Government, is in the public domain.
+
+
+[edit] External links
+About Wireless / Computer Networking 
+Data Communications at the Open Directory Project (suggest site) 
+List of Computer Network Tools 
+NetworkingBoards.com - Help with Computer Networking 
+Data Communications at the BOTW Directory 
+Retrieved from "http://en.wikipedia.org/wiki/Computer_network"
+Computer networking is the engineering discipline concerned with communication between computer systems. Such communicating computer systems constitute a computer network and these networks generally involve at least two devices capable of being networked with at least one usually being a computer. The devices can be separated by a few meters (e.g. via Bluetooth) or nearly unlimited distances (e.g. via the Internet). Computer networking is sometimes considered a sub-discipline of telecommunications, and sometimes of computer science, information technology and computer engineering. Computer networks rely heavily upon the theoretical and practical application of these scientific and engineering discliplines.
+
+A computer network is any set of computers or devices connected to each other. Examples of networks are the Internet, a wide area network that is the largest to ever exist, or a small home local area network (LAN) with two computers connected with standard networking cables connecting to a network interface card in each computer.
+
+Contents [hide]
+1 History 
+2 Networking Methods 
+3 Network topologies 
+4 Suggested topics 
+5 References 
+6 External links 
+ 
+
+
+[edit] History
+Before the advent of computer networks that were based upon some type of telecommunications system, communication between calculation machines and early computers was performed by human users by carrying instructions between them.
+
+In September 1940 George Stibitz used a teletype machine to send instructions for a problem set from his Model K at Dartmouth College in New Hampshire to his Complex Number Calculator in New York and received results back by the same means. Linking output systems like teletypes to computers was an interest at the Advanced Research Projects Agency (ARPA) when, in 1962, J.C.R. Licklider was hired and developed a working group he called the "Intergalactic Network", a precursor to the ARPANet.
+
+In 1964, researchers at Dartmouth developed the Dartmouth Time Sharing System for distributed users of large computer systems. The same year, at MIT, a research group supported by General Electric and Bell Labs used a computer (DEC's PDP-8) to route and manage telephone connections.
+
+Throughout the 1960s Leonard Kleinrock, Paul Baran and Donald Davies independently conceptualized and developed network systems which used datagrams or packets that could be used in a packet switched network between computer systems.
+
+In 1969 the University of California at Los Angeles, SRI (in Stanford), University of California at Santa Barbara, and the University of Utah were connected as the beginning of the ARPANet network using 50 kbit/s circuits.
+
+Computer networks, and the technologies needed to connect and communicate through and between them, continue to drive computer hardware, software, and peripherals industries. This expansion is mirrored by growth in the numbers and types of users of networks from the researcher to the home user.
+
+Today, computer networks are the core of modern communication. The scope of communication has increased significantly in the past decade and this boom in communications would not have been possible without the progressively advancing computer network.
+
+
+[edit] Networking Methods
+Networking is a complex part of computing that makes up most of the IT Industry. Without networks, almost all communication in the world would cease to happen. It is because of networking that telephones, televisions, the internet, etc. work.
+
+There are two (broad) types of networks in existence at the moment. These are:
+
+Local Area Network (LAN) 
+A Local Area Network is a network that spans a relatively small space and provides services to a small amount of people. Depending on the amount of people that use a Local Area Network, a peer-to-peer or client-server method of networking may be used. A peer-to-peer network is where each client shares their resources with other workstations in the network. Examples of peer-to-peer networks are: Small office networks where resource use is minimal and a home network. A client-server network is where every client is connected to the server and each other. Client-server networks use servers in different capacities. These can be classified into two types: Single-service servers, where the server performs one task such as file server, print server, etc.; while other servers can not only perform in the capacity of file servers and print servers, but they also conduct calculations and use these to provide information to clients (Web/Intranet Server). Computers are linked via Ethernet Cable, can be joined either directly (one computer to another), or via a network hub that allows multiple connections. 
+Wide Area Network (WAN) 
+A Wide Area Network is a network where a wide variety of resources are deployed across a large domestic area or internationally. An example of this is a multinational business that uses a WAN to interconnect their offices in different countries. The largest and best example of a WAN is the Internet, which is the largest network in the world. 
+Wireless Networks (WLAN) 
+A wireless network is basically the same as a LAN or a WAN but there are no wires between hosts and servers. The data is transfered over sets of radio trancievers. These types of networks are beneficial when it is to costly or inconvenient to run the necessary cables. For more information, see Wireless LAN 
+In order for communication to take place between computers, mediums must be used. These mediums include Protocols, Physical Routers and Ethernet, etc. This is covered by Open Systems Interconnection which comprises all the processes that make information transport possible.
+
+These different networking methods make data communication possible in many different situations and provide an internationally accepted standard through which all computer networking is built upon.
+
+
+[edit] Network topologies
+Main article: Network topology
+
+[edit] Suggested topics
+See the List of suggested topics for computer networking research.
+
+
+[edit] References
+Larry Peterson, "Computer Networks" (ISBN 1-55860-832-X). 
+Andrew S. Tanenbaum, "Computer Networks" (ISBN 0-13-349945-6). 
+Important publications in computer networks 
+Vinton G. Cerf "software: Global Infrastructure for the 21st Century" 
+
+[edit] External links
+Easy Network Concepts (Linux kernel specific) 
+Computer Networks and Protocol (Research document, 2006) 
+Computer Networking Glossary 
+Networking at the Open Directory Project (suggest site) 
+While the term wireless network may technically be used to refer to any type of network that is wireless, the term is most commonly use to refer to a telecommunications network whose interconnections between nodes is implemented without the use of wires, such as a computer network (which is a type of telecommunications network). Wireless telecommunications networks are generally implemented with some type of information transmission system that uses electromagnetic waves, such as radio waves, for the carrier and this implementation usually takes place at the physical level or "layer" of the network. (For example, see the Physical Layer of the OSI Model).
+
+Contents [hide]
+1 Types 
+2 Uses 
+3 Companies 
+3.1 Cellular companies 
+3.2 Wireless internet networks 
+4 Articles 
+5 Research institutes 
+6 Communities 
+7 Ideas 
+8 See also 
+9 References 
+9.1 Annotated bibliography 
+10 External links 
+ 
+
+
+[edit] Types
+Wireless LAN 
+One type of wireless network is a wireless LAN, or Local Area Network. Similar to other wireless devices, it uses radio instead of wires to transmit data back and forth between computers on the same network as was the case for ALOHANET. 
+Global System for Mobile Communications (GSM) 
+The GSM network is divided into three major systems which are the switching system, the base station system, and the operation and support system (Global System for Mobile Communication (GSM)). The cell phone connects to the base system station which then connects to the operation and support station; it then connects to the switching station where the call is transferred where it needs to go (Global System for Mobile Communication (GSM)). This is used for cellular phones, is the most common standard and is used for a majority of cellular providers. 
+Personal Communications Service (PCS) 
+PCS is a radio band that can be used by mobile phones in North America. Sprint happened to be the first service to set up a PCS. 
+D-AMPS 
+D-AMPS, which stands for Digital Advanced Mobile Phone Service, is an upgraded version of AMPS but it is being phased out due to advancement in technology. The newer GSM networks are replacing the older system. 
+Wi-Fi 
+Wi-Fi is a commonly used wireless network in computer systems which enable connection to the internet or other machines that have Wi-Fi functionalities. Wi-Fi networks broadcast radio waves that can be picked up by Wi-Fi receivers that are attached to different computers. 
+Fixed Wireless Data 
+Fixed wireless data is a type of wireless data network that can be used to connect two or more buildings together in order to extend or share the network bandwidth without physically wiring the buildings together. 
+
+[edit] Uses
+Wireless networks have significantly impacted the world as far back as World War II. With the use of wireless networks, information could be sent overseas or behind enemy lines easily and quickly and was more reliable. Since then wireless networks have continued to develop and its uses have significantly grown. Cellular phones are part of huge wireless network systems. People use these phones daily to communicate with one another. Sending information over seas is only possible through wireless network systems using satellites and other signals to communicate across the world otherwise getting information Emergency services such as the police department utilize wireless networks to communicate important information quickly. People and businesses use wireless networks to send and share data quickly whether it be in a small office building or across the world. Another important use for wireless networks is as an inexpensive and rapid way to be connected to the Internet in countries and regions where the telecom infrastructure is poor or there is a lack of resources, like most Developing Countries.
+
+Wireless networks allow you to eliminate messy cables. Wireless connections offer more mobility, the downside is there can sometimes be interference that might block the radio signals from passing through. One way to avoid this is by putting the source of your wireless connection in a place where the signal will have as little interference as possible. Sometimes nearby networks are using the same frequencies, this can also cause interference within the network and can reduce its performance.
+
+Compatibility issues also arise when dealing with wireless networks. Different components not made by the same company may not work together, or might require extra work to fix compatibility issues. To avoid this, purchase products made by the same company so that there are fewer compatibility issues.
+
+Wireless networks, in terms of internet connections, are typically slower than those that are directly connected through an Ethernet cable. Though the speed is slower, most things will still move at the same speed except for things like video downloads. Though wireless technology continues to develop, it is now easier to get networks up and running cheaper and faster than ever before.
+
+A wireless network is more vulnerable because anyone can try to break into a network broadcasting a signal. Many networks offer WEP - Wired Equivalent Privacy - security systems which have been found to be vulnerable to intrusion. Though WEP does block some intruders, the security problems have caused some businesses to stick with wired networks until security can be improved. Another type of security for wireless networks is WPA - Wi-Fi Protected Access. WPA provides more security to wireless networks than a WEP security set up. The use of firewalls will help with security breaches which can help to fix security problems in some wireless networks that are more vulnerable.
+
+
+[edit] Companies
+There are different companies that provide different wireless services. Some are listed below.
+
+
+[edit] Cellular companies
+Cingular Wireless, Verizon Wireless, Sprint Nextel, Alltel Wireless, T-Mobile, Rogers, Orange, Bell and United States Cellular 
+
+[edit] Wireless internet networks
+Verizon Wireless, Sprint Nextel, Cingular, Bell 
+
+[edit] Articles
+Wireless MAN - metropolitan area network 
+Wireless LAN - local area networks 
+Wireless PAN - personal area networks 
+GSM - Global standard for digital mobile communication, common in most countries except South Korea and Japan 
+PCS - Personal communication system - not a single standard, this covers both CDMA and GSM networks operating at 1900 MHz in North America 
+Mobitex - pager-based network in the USA and Canada, built by Ericsson, now used by PDAs such as the Palm VII and Research in Motion BlackBerry 
+GPRS - General Packet Radio Service, upgraded packet-based service within the GSM framework, gives higher data rates and always-on service 
+UMTS - Universal Mobile Telephone Service (3rd generation cell phone network), based on the W-CDMA radio access network 
+AX.25 - amateur packet radio 
+NMT - Nordic Mobile Telephony, analog system originally developed by PTTs in the Nordic countries 
+AMPS - Advanced Mobile Phone System introduced in the Americas in about 1984. 
+D-AMPS - Digital AMPS, also known as TDMA 
+Wi-Fi - Wireless Fidelity, widely used for Wireless LAN, and based on IEEE 802.11 standards. 
+Wimax - A solution for BWA (Broadband Wireless Access) and conforms to IEEE 802.16 standard. 
+Canopy - A wide-area broadband wireless solution from Motorola. 
+
+[edit] Research institutes
+The following institutions conduct wireless network related research:
+
+University of California, Berkeley 
+University of Pennsylvania 
+Massachusetts Institute of Technology 
+Helsinki University of Technology 
+Royal Institute of Technology (Stockholm, Sweden) 
+Stanford University 
+Worcester Polytechnic Institute 
+University of Southern California 
+University of Edinburgh Edinburgh, UK 
+Nanyang Technological University, Singapore 
+
+[edit] Communities
+G S Sanyal school of Telecommunications, IIT Kharagpur, India
+
+SeattleWireless 
+NYCwireless 
+RedLibre 
+Personal Telco 
+Downtown Toronto 
+
+[edit] Ideas
+Warchalking 
+
+[edit] See also
+Community wireless network 
+Wireless LAN 
+Exposed terminal problem 
+Wireless LAN client comparison 
+Wireless Networking in the Developing World 
+Public Safety Network 
+
+[edit] References
+
+[edit] Annotated bibliography
+Aravamudhan, Lachu. Getting to Know Wireless Networks and Technology. 4 July 2003. 5 Oct 2006 <http://www.informit.com/articles/printerfriendly.asp?p=98132&rl=1>. 
+This source helped with verifying some history on wireless networks. The source is a few years old and so I didn’t use much of the information though it did have information similar to other sources in this project. 
+Global System for Mobile Communication (GSM). International Engineering Consortium. 10 Oct 2006 <http://www.iec.org/online/tutorials/gsm/topic03.html>. 
+This source was useful in that it provided information about GSM networks. I used it just to give a short description of how GSM networks work. The source was reliable and talked about the way the different components of GSM networks. 
+Goldsmith, Andrea. "Wireless Communications." Overview of Wireless Communications. 16 Oct 2006 <http://www.cambridge.org/us/catalogue/catalogue.asp?isbn=0521837162&ss=exc>. 
+This source was useful because it provided a general overview of wireless communications. The author provided some history behind wireless networks that I used to confirm with other sources in my paper. I thought the content that was provided was valuable and it was useful to the project. 
+History of Wireless. Johns Hopkins School of Public Health. 10 Oct 2006 <http://www.jhsph.edu/wireless/history.html>. 
+This source was very useful when writing about the history of wireless networks. I used a lot of information from this source and verified it with other sources. The source talked about the start of wireless communication up to about the first WLAN. The source appeared to be reliable as it had the same information other sources had. 
+How Wi-Fi Works. 10 Oct 2006 <http://www.uweb.ucsb.edu/~d_na/How%20WiFi%20Works2.doc>. 
+This source was reliable as I used the diagrams provided in the document. It was a picture that showed how different Wi-Fi connections were setup and talked about how long they could reach and possible problems relating to Wi-Fi. The source was reliable and useful to the discussion of how Wi-Fi works. 
+Noboa, Paul. World of Wireless Networking. 2005. 10 Oct 2006 <http://www.sinc.sunysb.edu/Stu/pnoboa/>. 
+This source was useful specifically in regards to the ALOHNET information in this project. The information was the as the information provided by the article titled History of Wireless. The source was talked about different aspects of wireless networking, but the part I most focused on was the information regarding ALOHNET which discussed its history. 
+The Pros and Cons of Wireless. Vnunet. 10 Oct 2006 <http://www.vnunet.com/personal-computer-world/features/2045861/pros-cons-wireless-part>. 
+This source provided different pros and cons to using a wireless network. It talked about the easy mobility of wireless networks and how they provide easy access to information. It also talked about the downsides to it such as security issues and slower speeds at which information is transferred. This source was useful to this project and was reliable. 
+Wireless Networking in the Developing World. 20 Feb 2007 <http://wndw.org>. 
+This source is a free book released under Creative Commons. It is a comprehensive source of information and practical hints on how to deploy wireless networks in Developing Countries. 
+Computer networking devices are units that mediate data in a computer network. Computer networking devices are also called network equipment, Intermediate Systems (IS) or InterWorking Unit (IWU). Units which are the last receiver or generate data are called hosts or data terminal equipment.
+
+
+[edit] List of computer networking devices
+Common basic network devices:
+
+Gateway: device sitting at a network node for interfacing with another network that uses different protocols. Works on OSI layers 4 to 7. 
+Router: a specialized network device that determines the next network point to which to forward a data packet toward its destination. Unlike a gateway, it cannot interface different protocols. Works on OSI layer 3. 
+Bridge: a device that connects multiple network segments along the data link layer. Works on OSI layer 2. 
+Switch: a device that allocates traffic from one network segment to certain lines (intended destination(s)) which connect the segment to another network segment. So unlike a hub a switch splits the network traffic and sends it to different destinations rather than to all systems on the network. Works on OSI layer 2. 
+Hub: connects multiple Ethernet segments together making them act as a single segment. When using a hub, every attached device shares the same broadcast domain and the same collision domain. Therefore, only one computer connected to the hub is able to transmit at a time. Depending on the network topology, the hub provides a basic level 1 OSI model connection among the network objects (workstations, servers, etc). It provides bandwidth which is shared among all the objects, compared to switches, which provide a dedicated connection between individual nodes. Works on OSI layer 1. 
+Repeater: device to amplify or regenerate digital signals received while setting them from one part of a network into another. Works on OSI layer 1. 
+Some hybrid network devices:
+
+Multilayer Switch: a switch which, in addition to switching on OSI layer 2, provides functionality at higher protocol layers. 
+Protocol Converter: a hardware device that converts between two different types of transmissions, such as asynchronous and synchronous transmissions. 
+Brouter: Combine router and bridge functionality and are therefore working on OSI layers 2 and 3. 
+Digital media receiver: Connects a computer network to a home theatre 
+Hardware or software components that typically sit on the connection point of different networks, e.g. between an internal network and an external network:
+
+Proxy: computer network service which allows clients to make indirect network connections to other network services 
+Firewall: a piece of hardware or software put on the network to prevent some communications forbidden by the network policy 
+Other hardware for establishing networks or dial-up connections:list
+
+Multiplexer: device that combines several electrical signals into a single signal 
+Network Card: a piece of computer hardware to allow the attached computer to communicate by network 
+Modem: device that modulates an analog "carrier" signal (such as sound), to encode digital information, and that also demodulates such a carrier signal to decode the transmitted information, as a computer communicating with another computer over the telephone network 
+ISDN terminal adapter (TA): a specialized gateway for ISDN 
+Line Driver: a device to increase transmission distance by amplifying the signal. Base-band networks only. 
+Network topology is the study of the arrangement or mapping of the elements (links, nodes, etc.) of a network, especially the physical (real) and logical (virtual) interconnections between nodes [1] [2] [3].
+
+A local area network (LAN) is one example of a network that exhibits both a physical and a logical topology. Any given node in the LAN will have one or more links to one or more other nodes in the network and the mapping of these links and nodes onto a graph results in a geometrical shape that determines the physical topology of the network. Likewise, the mapping of the flow of data between the nodes in the network determines the logical topology of the network. It is important to note that the physical and logical topologies might be identical in any particular network but they also may be different.
+
+Any particular network topology is determined only by the graphical mapping of the configuration of physical and/or logical connections between nodes - Network Topology is, therefore, technically a part of graph theory. Distances between nodes, physical interconnections, transmission rates, and/or signal types may differ in two networks and yet their topologies may be identical[2].
+
+Contents [hide]
+1 Basic Types of Topologies 
+2 Classification of Network Topologies 
+2.1 Physical Topologies 
+2.1.1 Classification of Physical Topologies: 
+2.1.1.1 Bus: 
+2.1.1.2 Star: 
+2.1.1.3 Ring: 
+2.1.1.4 Mesh: 
+2.1.1.5 Tree (also known as Hierarchical): 
+2.1.2 Hybrid Network Topologies 
+2.2 Signal Topology 
+2.3 Logical Topology 
+2.3.1 Classification of Logical Topologies 
+3 Daisy chains 
+4 Centralization 
+5 Decentralization 
+6 Hybrids 
+7 See also 
+8 References 
+9 External links 
+ 
+
+
+[edit] Basic Types of Topologies
+The arrangement or mapping of the elements of a network gives rise to certain basic topologies which may then be combined to form more complex topologies (hybrid topologies). The most common of these basic types of topologies are (refer to the illustration at the top right of this page):
+
+Bus (Linear, Linear Bus) 
+Star 
+Ring 
+Mesh 
+partially connected mesh (or simply 'mesh') 
+fully connected mesh (or simply fully connected) 
+Tree 
+Hybrid 
+
+[edit] Classification of Network Topologies
+There are also three basic categories of network topologies:
+
+physical topologies 
+signal topologies 
+logical topologies 
+The terms signal topology and logical topology are often used interchangeably even though there is a subtle difference between the two and the distinction is not often made between the two.
+
+
+[edit] Physical Topologies
+The mapping of the nodes of a network and the physical connections between them – i.e., the layout of wiring, cables, the locations of nodes, and the interconnections between the nodes and the cabling or wiring system[1][3].
+
+
+[edit] Classification of Physical Topologies:
+
+[edit] Bus:
+Linear Bus: 
+The type of network topology in which all of the nodes of the network are connected to a common transmission medium which has exactly two endpoints (this is the 'bus', which is also commonly referred to as the backbone, or trunk) – all data that is transmitted between nodes in the network is transmitted over this common transmission medium and is able to be received by all nodes in the network virtually simultaneously (disregarding propagation delays)[1][3]. 
+Note: The two endpoints of the common transmission medium are normally terminated with a device called a terminator that exhibits the characteristic impedance of the transmission medium and which dissipates or absorbs the energy that remains in the signal to prevent the signal from being reflected or propagated back onto the transmission medium in the opposite direction, which would cause interference with and degradation of the signals on the transmission medium (See Electrical termination). 
+Distributed Bus: 
+The type of network topology in which all of the nodes of the network are connected to a common transmission medium which has more than two endpoints that are created by adding branches to the main section of the transmission medium – the physical distributed bus topology functions in exactly the same fashion as the physical linear bus topology (i.e., all nodes share a common transmission medium). 
+Notes: 
+1.) All of the endpoints of the common transmission medium are normally terminated with a device called a 'terminator' (see the note under linear bus). 
+2.) The physical linear bus topology is sometimes considered to be a special case of the physical distributed bus topology – i.e., a distributed bus with no branching segments. 
+3.) The physical distributed bus topology is sometimes incorrectly referred to as a physical tree topology – however, although the physical distributed bus topology resembles the physical tree topology, it differs from the physical tree topology in that there is no central node to which any other nodes are connected, since this hierarchical functionality is replaced by the common bus. 
+
+[edit] Star:
+The type of network topology in which each of the nodes of the network is connected to a central node with a point-to-point link in a 'hub' and 'spoke' fashion, the central node being the 'hub' and the nodes that are attached to the central node being the 'spokes' (e.g., a collection of point-to-point links from the peripheral nodes that converge at a central node) – all data that is transmitted between nodes in the network is transmitted to this central node, which is usually some type of device that then retransmits the data to some or all of the other nodes in the network, although the central node may also be a simple common connection point (such as a 'punch-down' block) without any active device to repeat the signals[1][3]. 
+Notes: 
+1.) A point-to-point link is sometimes categorized as a special instance of the physical star topology – therefore, the simplest type of network that is based upon the physical star topology would consist of one node with a single point-to-point link to a second node, the choice of which node is the 'hub' and which node is the 'spoke' being arbitrary[1]. 
+2.) After the special case of the point-to-point link, as in note 1.) above, the next simplest type of network that is based upon the physical star topology would consist of one central node – the 'hub' – with two separate point-to-point links to two peripheral nodes – the 'spokes'. 
+3.) Although most networks that are based upon the physical star topology are commonly implemented using a special device such as a hub or switch as the central node (i.e., the 'hub' of the star), it is also possible to implement a network that is based upon the physical star topology using a computer or even a simple common connection point as the 'hub' or central node – however, since many illustrations of the physical star network topology depict the central node as one of these special devices, some confusion is possible, since this practice may lead to the misconception that a physical star network requires the central node to be one of these special devices, which is not true because a simple network consisting of three computers connected as in note 2.) above also has the topology of the physical star. 
+Extended Star: 
+A type of network topology in which a network that is based upon the physical star topology has one or more repeaters between the central node (the 'hub' of the star) and the peripheral or 'spoke' nodes, the repeaters being used to extend the maximum transmission distance of the point-to-point links between the central node and the peripheral nodes beyond that which is supported by the transmitter power of the central node or beyond that which is supported by the standard upon which the physical layer of the physical star network is based. 
+Note: If the repeaters in a network that is based upon the physical extended star topology are replaced with hubs or switches, then a hybrid network topology is created that is referred to as a physical hierarchical star topology, although some texts make no distinction between the two topologies. 
+Distributed Star: 
+A type of network topology that is composed of individual networks that are based upon the physical star topology connected together in a linear fashion – i.e., 'daisy-chained' – with no central or top level connection point (e.g., two or more 'stacked' hubs, along with their associated star connected nodes or 'spokes'). 
+
+[edit] Ring:
+The type of network topology in which each of the nodes of the network is connected to two other nodes in the network and with the first and last nodes being connected to each other, forming a ring – all data that is transmitted between nodes in the network travels from one node to the next node in a circular manner and the data generally flows in a single direction only. 
+Dual-ring: 
+The type of network topology in which each of the nodes of the network is connected to two other nodes in the network, with two connections to each of these nodes, and with the first and last nodes being connected to each other with two connections, forming a double ring – the data flows in opposite directions around the two rings, although, generally, only one of the rings carries data during normal operation, and the two rings are independent unless there is a failure or break in one of the rings, at which time the two rings are joined (by the stations on either side of the fault) to enable the flow of data to continue using a segment of the second ring to bypass the fault in the primary ring. 
+
+[edit] Mesh:
+
+Full: 
+Fully Connected: 
+The type of network topology in which each of the nodes of the network is connected to each of the other nodes in the network with a point-to-point link – this makes it possible for data to be simultaneously transmitted from any single node to all of the other nodes. 
+Note: The physical fully connected mesh topology is generally too costly and complex for practical networks, although the topology is used when there are only a small number of nodes to be interconnected[3]. 
+Partial: 
+Partially Connected: 
+The type of network topology in which some of the nodes of the network are connected to more than one other node in the network with a point-to-point link – this makes it possible to take advantage of some of the redundancy that is provided by a physical fully connected mesh topology without the expense and complexity required for a connection between every node in the network. 
+Note: In most practical networks that are based upon the physical partially connected mesh topology, all of the data that is transmitted between nodes in the network takes the shortest path between nodes, except in the case of a failure or break in one of the links, in which case the data takes an alternate path to the destination – this implies that the nodes of the network possess some type of logical 'routing' algorithm to determine the correct path to use at any particular time. 
+
+[edit] Tree (also known as Hierarchical):
+The type of network topology in which a central 'root' node (the top level of the hierarchy) is connected to one or more other nodes that are one level lower in the hierarchy (i.e., the second level) with a point-to-point link between each of the second level nodes and the top level central 'root' node, while each of the second level nodes that are connected to the top level central 'root' node will also have one or more other nodes that are one level lower in the hierarchy (i.e., the third level) connected to it, also with a point-to-point link, the top level central 'root' node being the only node that has no other node above it in the hierarchy – the hierarchy of the tree is symmetrical, each node in the network having a specific fixed number, f, of nodes connected to it at the next lower level in the hierarchy, the number, f, being referred to as the 'branching factor' of the hierarchical tree. 
+Notes: 
+1.) A that is based upon the physical hierarchical topology must have at least three levels in the hierarchy of the tree, since a network with a central 'root' node and only one hierarchical level below it would exhibit the physical topology of a star. 
+2.) A network that is based upon the physical hierarchical topology and with a branching factor of 1 would be classified as a physical linear topology. 
+3.) The branching factor, f, is independent of the total number of nodes in the network and, therefore, if the nodes in the network require ports for connection to other nodes the total number of ports per node may be kept low even though the total number of nodes is large – this makes the effect of the cost of adding ports to each node totally dependent upon the branching factor and may therefore be kept as low as required without any effect upon the total number of nodes that are possible. 
+4.) The total number of point-to-point links in a network that is based upon the physical hierarchical topology will be one less that the total number of nodes in the network. 
+5.) If the nodes in a network that is based upon the physical hierarchical topology are required to perform any processing upon the data that is transmitted between nodes in the network, the nodes that are at higher levels in the hierarchy will be required to perform more processing operations on behalf of other nodes than the nodes that are lower in the hierarchy. 
+
+[edit] Hybrid Network Topologies
+The hybrid topology is a type of network topology that is composed of one or more interconnections of two or more networks that are based upon different physical topologies or a type of network topology that is composed of one or more interconnections of two or more networks that are based upon the same physical topology, but where the physical topology of the network resulting from such an interconnection does not meet the definition of the original physical topology of the interconnected networks (e.g., the physical topology of a network that would result from an interconnection of two or more networks that are based upon the physical star topology might create a hybrid topology which resembles a mixture of the physical star and physical bus topologies or a mixture of the physical star and the physical tree topologies, depending upon how the individual networks are interconnected, while the physical topology of a network that would result from an interconnection of two or more networks that are based upon the physical distributed bus network retains the topology of a physical distributed bus network).
+
+Star-Bus: 
+A type of network topology in which the central nodes of one or more individual networks that are based upon the physical star topology are connected together using a common 'bus' network whose physical topology is based upon the physical linear bus topology, the endpoints of the common 'bus' being terminated with the characteristic impedance of the transmission medium where required – e.g., two or more hubs connected to a common backbone with drop cables through the port on the hub that is provided for that purpose (e.g., a properly configured 'uplink' port) would comprise the physical bus portion of the physical star-bus topology, while each of the individual hubs, combined with the individual nodes which are connected to them, would comprise the physical star portion of the physical star-bus topology. 
+Star-of_Stars: 
+Hierarchical Star: 
+A type of network topology that is composed of an interconnection of individual networks that are based upon the physical star topology connected together in a hierarchical fashion to form a more complex network – e.g., a top level central node which is the 'hub' of the top level physical star topology and to which other second level central nodes are attached as the 'spoke' nodes, each of which, in turn, may also become the central nodes of a third level physical star topology. 
+Notes: 
+1.) The physical hierarchical star topology is not a combination of the physical linear bus and the physical star topologies, as cited in some texts, as there is no common linear bus within the topology, although the top level 'hub' which is the beginning of the physical hierarchical star topology may be connected to the backbone of another network, such as a common carrier, which is, topologically, not considered to be a part of the local network – if the top level central node is connected to a backbone that is considered to be a part of the local network, then the resulting network topology would be considered to be a hybrid topology that is a mixture of the topology of the backbone network and the physical hierarchical star topology. 
+2.) The physical hierarchical star topology is also sometimes incorrectly referred to as a physical tree topology, since its physical topology is hierarchical, however, the physical hierarchical star topology does not have a structure that is determined by a branching factor, as is the case with the physical tree topology and, therefore, nodes may be added to, or removed from, any node that is the 'hub' of one of the individual physical star topology networks within a network that is based upon the physical hierarchical star topology. 
+3.) The physical hierarchical star topology is commonly used in 'outside plant' (OSP) cabling to connect various buildings to a central connection facility, which may also house the 'demarcation point' for the connection to the data transmission facilities of a common carrier, and in 'inside plant' (ISP) cabling to connect multiple wiring closets within a building to a common wiring closet within the same building, which is also generally where the main backbone or trunk that connects to a larger network, if any, enters the building. 
+Star-wired Ring: 
+A type of hybrid physical network topology that is a combination of the physical star topology and the physical ring topology, the physical star portion of the topology consisting of a network in which each of the nodes of which the network is composed are connected to a central node with a point-to-point link in a 'hub' and 'spoke' fashion, the central node being the 'hub' and the nodes that are attached to the central node being the 'spokes' (e.g., a collection of point-to-point links from the peripheral nodes that converge at a central node) in a fashion that is identical to the physical star topology, while the physical ring portion of the topology consists of circuitry within the central node which routes the signals on the network to each of the connected nodes sequentially, in a circular fashion. 
+Note: In an 802.5 Token Ring network the central node is called a Multistation Access Unit (MAU). 
+Hybrid Mesh: 
+A type of hybrid physical network topology that is a combination of the physical partially connected topology and one or more other physical topologies the mesh portion of the topology consisting of redundant or alternate connections between some of the nodes in the network – the physical hybrid mesh topology is commonly used in networks which require a high degree of availability. 
+
+[edit] Signal Topology
+The mapping of the actual connections between the nodes of a network, as evidenced by the path that the signals take when propagating between the nodes.
+
+Note: The term 'signal topology' is often used synonymously with the term 'logical topology', however, some confusion may result from this practice in certain situations since, by definition, the term 'logical topology' refers to the apparent path that the data takes between nodes in a network while the term 'signal topology' generally refers to the actual path that the signals (e.g., optical, electrical, electromagnetic, etc.) take when propagating between nodes. 
+Example: 
+In an 802.4 Token Bus network, the physical topology may be a physical bus, a physical star, or a hybrid physical topology, while the signal topology is a bus (i.e., the electrical signal propagates to all nodes simultaneously [ignoring propagation delays and network latency] ), and the logical topology is a ring (i.e., the data flows from one node to the next in a circular manner according to the protocol).[4] 
+
+[edit] Logical Topology
+The mapping of the apparent connections between the nodes of a network, as evidenced by the path that data appears to take when traveling between the nodes.
+
+
+[edit] Classification of Logical Topologies
+The logical classification of network topologies generally follows the same classifications as those in the physical classifications of network topologies, the path that the data takes between nodes being used to determine the topology as opposed to the actual physical connections being used to determine the topology.
+
+Notes: 
+1.) Logical topologies are often closely associated with media access control (MAC) methods and protocols. 
+2.) The logical topologies are generally determined by network protocols as opposed to being determined by the physical layout of cables, wires, and network devices or by the flow of the electrical signals, although in many cases the paths that the electrical signals take between nodes may closely match the logical flow of data, hence the convention of using the terms 'logical topology' and 'signal topology' interchangeably. 
+3.) Logical topologies are able to be dynamically reconfigured by special types of equipment such as routers and switches. 
+
+[edit] Daisy chains
+Except for star-based networks, the easiest way to add more computers into a network is by daisy-chaining, or connecting each computer in series to the next. If a message is intended for a computer partway down the line, each system bounces it along in sequence until it reaches the destination. A daisy-chained network can take two basic forms: linear and ring.
+
+A linear topology puts a two-way link between one computer and the next. However, this was expensive in the early days of computing, since each computer (except for the ones at each end) required two receivers and two transmitters. 
+By connecting the computers at each end, a ring topology can be formed. An advantage of the ring is that the number of transmitters and receivers can be cut in half, since a message will eventually loop all of the way around. When a node sends a message, the message is processed by each computer in the ring. If a computer is not the destination node, it will pass the message to the next node, until the message arrives at its destination. If the message is not accepted by any node on the network, it will travel around the entire ring and return to the sender. This potentially results in a doubling of travel time for data, but since it is traveling at a significant fraction of the speed of light, the loss is usually negligible. 
+
+[edit] Centralization
+The star topology reduces the probability of a network failure by connecting all of the peripheral nodes (computers, etc.) to a central node. When the physical star topology is applied to a logical bus network such as Ethernet, this central node (usually a hub) rebroadcasts all transmissions received from any peripheral node to all peripheral nodes on the network, sometimes including the originating node. All peripheral nodes may thus communicate with all others by transmitting to, and receiving from, the central node only. The failure of a transmission line linking any peripheral node to the central node will result in the isolation of that peripheral node from all others, but the remaining peripheral nodes will be unaffected. However, the disadvantage is that the failure of the central node will cause the failure of all of the peripheral nodes also.
+
+If the central node is passive, the originating node must be able to tolerate the reception of an echo of its own transmission, delayed by the two-way transmission time (i.e. to and from the central node) plus any delay generated in the central node. An active star network has an active central node that usually has the means to prevent echo-related problems.
+
+A tree topology (a.k.a. hierarchical topology) can be viewed as a collection of star networks arranged in a hierarchy. This tree has individual peripheral nodes (i.e. leaves) which are required to transmit to and receive from one other node only and are not required to act as repeaters or regenerators. Unlike the star network, the functionality of the central node may be distributed.
+
+As in the conventional star network, individual nodes may thus still be isolated from the network by a single-point failure of a transmission path to the node. If a link connecting a leaf fails, that leaf is isolated; if a connection to a non-leaf node fails, an entire section of the network becomes isolated from the rest.
+
+In order to alleviate the amount of network traffic that comes from broadcasting all signals to all nodes, more advanced central nodes were developed that are able to keep track of the identities of the nodes that are connected to the network. These network switches will "learn" the layout of the network by first broadcasting data packets to all nodes, then observing where response packets come from and entering the addresses of these nodes into an internal table for future routing purposes.
+
+
+[edit] Decentralization
+In a mesh topology (i.e., a partially connected mesh topology), there are at least two nodes with two or more paths between them to provide redundant paths to be used in case the link providing one of the paths fails. This decentralization is often used to advantage to compensate for the single-point-failure disadvantage that is present when using a single device as a central node (e.g., in star and tree networks). A special kind of mesh, limiting the number of hops between two nodes, is a hypercube. The number of arbitrary forks in mesh networks makes them more difficult to design and implement, but their decentralized nature makes them very useful. This is similar in some ways to a grid network, where a linear or ring topology is used to connect systems in multiple directions. A multi-dimensional ring has a toroidal topology, for instance.
+
+A fully connected network, complete topology or full mesh topology is a network topology in which there is a direct link between all pairs of nodes. In a fully connected network with n nodes, there are n(n-1)/2 direct links. Networks designed with this topology are usually very expensive to set up, but provide a high degree of reliability due to the multiple paths for data that are provided by the large number of redundant links between nodes. This topology is mostly seen in military applications. However, it can also be seen in the file sharing protocol BitTorrent in which users connect to other users in the "swarm" by allowing each user sharing the file to connect to other users also involved. Often in actual usage of BitTorrent any given individual node is rarely connected to every single other node as in a true fully connected network but the protocol does allow for the possibility for any one node to connect to any other node when sharing files.
+
+
+[edit] Hybrids
+Hybrid networks use a combination of any two or more topologies in such a way that the resulting network does not exhibit one of the standard topologies (e.g., bus, star, ring, etc.). For example, a tree network connected to a tree network is still a tree network, but two star networks connected together exhibit a hybrid network topology. A hybrid topology is always produced when two different basic network topologies are connected. Two common examples for Hybrid network are: star ring network and star bus network
+
+A Star ring network consists of two or more star topologies connected using a multistation access unit (MAU) as a centralized hub. 
+A Star Bus network consists of two or more star topologies connected using a bus trunk (the bus trunk serves as the network's backbone). 
+While grid networks have found popularity in high-performance computing applications, some systems have used genetic algorithms to design custom networks that have the fewest possible hops in between different nodes. Some of the resulting layouts are nearly incomprehensible, although they do function quite well.
+
+
+[edit] See also
+Bus network 
+Mesh network 
+Shared mesh 
+Switched mesh 
+Ring network 
+Star network 
+Tree and hypertree networks 
+Expander graph 
+Scale-free network 
+Network diagram 
+Computer network 
+
+[edit] References
+^ a b c d e Groth, David; Toby Skandier (2005). 'Network+ Study Guide, Fourth Edition'. Sybex, Inc.. ISBN 0-7821-4406-3.  
+^ a b [Committee T1A1 Performance and Signal Processing] (2005). ANS T1.523-2001, Telecom Glossary 2000. ATIS Committee T1A1.  
+^ a b c d e Google.com, Numerous university professor's notes. (2005). .  
+^ Sheldon, Tom (2006). Token Bus Network.  
+The Internet is the worldwide, publicly accessible network of interconnected computer networks that transmit data by packet switching using the standard Internet Protocol (IP). It is a "network of networks" that consists of millions of smaller domestic, academic, business, and government networks, which together carry various information and services, such as electronic mail, online chat, file transfer, and the interlinked Web pages and other documents of the World Wide Web.
+
+Contents [hide]
+1 Creation of the Internet 
+2 Today's Internet 
+2.1 Internet protocols 
+2.2 Internet structure 
+2.3 ICANN 
+2.4 Language 
+2.5 Internet and the workplace 
+2.6 The mobile Internet 
+3 Common uses of the Internet 
+3.1 E-mail 
+3.2 The World Wide Web 
+3.3 Remote access 
+3.4 Collaboration 
+3.5 File sharing 
+3.6 Streaming media 
+3.7 Voice telephony (VoIP) 
+4 Censorship 
+5 Internet access 
+6 Leisure 
+7 Complex architecture 
+8 Marketing 
+9 The name Internet 
+10 See also 
+10.1 Major aspects and issues 
+10.2 Functions 
+10.3 Underlying infrastructure 
+10.4 Regulatory bodies 
+11 References 
+11.1 Citations and notes 
+11.2 General 
+12 External links 
+12.1 General 
+12.2 Articles 
+12.3 History 
+ 
+
+
+Creation of the Internet
+For more details on this topic, see History of the Internet. 
+The USSR's launch of Sputnik spurred the United States to create the Advanced Research Projects Agency (ARPA, later known as the Defense Advanced Research Projects Agency, or DARPA) in February 1958 to regain a technological lead. ARPA created the Information Processing Technology Office (IPTO) to further the research of the Semi Automatic Ground Environment (SAGE) program, which had networked country-wide radar systems together for the first time. J. C. R. Licklider was selected to head the IPTO, and saw universal networking as a potential unifying human revolution.
+
+In 1950, Licklider moved from the Psycho-Acoustic Laboratory at Harvard University to MIT, where he served on a committee that established Lincoln Laboratory. He worked on the SAGE project. In 1957 he became a Vice President at BBN, where he bought the first production PDP-1 computer and conducted the first public demonstration of time-sharing.
+
+Licklider recruited Lawrence Roberts to head a project to implement a network, and Roberts based the technology on the work of Paul Baran who had written an exhaustive study for the U.S. Air Force that recommended packet switching (as opposed to circuit switching) to make a network highly robust and survivable. After much work, the first node went live at UCLA on October 29, 1969 on what would be called the ARPANET, one of the "eve" networks of today's Internet. Following on from this, the British Post Office, Western Union International and Tymnet collaborated to create the first international packet switched network, referred to as the International Packet Switched Service (IPSS), in 1978. This network grew from Europe and the US to cover Canada, Hong Kong and Australia by 1981.
+
+The first TCP/IP-wide area network was operational by January 1, 1983, when the United States' National Science Foundation (NSF) constructed a university network backbone that would later become the NSFNet. (This date is held by some to be technically that of the birth of the Internet.) It was then followed by the opening of the network to commercial interests in 1985. Important, separate networks that offered gateways into, then later merged with, the NSFNet include Usenet, BITNET and the various commercial and educational X.25 Compuserve and JANET. Telenet (later called Sprintnet) was a large privately-funded national computer network with free dial-up access in cities throughout the U.S. that had been in operation since the 1970s. This network eventually merged with the others in the 1990s as the TCP/IP protocol became increasingly popular. The ability of TCP/IP to work over these pre-existing communication networks, especially the international X.25 IPSS network, allowed for a great ease of growth. Use of the term "Internet" to describe a single global TCP/IP network originated around this time.
+
+The network gained a public face in the 1990s. On August 6, 1991, CERN, which straddles the border between France and Switzerland, publicized the new World Wide Web project, two years after Tim Berners-Lee had begun creating HTML, HTTP and the first few Web pages at CERN.
+
+An early popular web browser was ViolaWWW based upon HyperCard. It was eventually replaced in popularity by the Mosaic web browser. In 1993 the National Center for Supercomputing Applications at the University of Illinois released version 1.0 of Mosaic, and by late 1994 there was growing public interest in the previously academic/technical Internet. By 1996 the word "Internet" was coming into common daily usage, frequently misused to refer to the World Wide Web.
+
+Meanwhile, over the course of the decade, the Internet successfully accommodated the majority of previously existing public computer networks (although some networks, such as FidoNet, have remained separate). According to a research done by K.G. Coffman and Andrew Odlyzyko, the internet is growing at a rate of over 100% per year.[1] This growth is often attributed to the lack of central administration, which allows organic growth of the network, as well as the non-proprietary open nature of the Internet protocols, which encourages vendor interoperability and prevents any one company from exerting too much control over the network.
+
+
+Today's Internet
+ 
+A rack of serversAside from the complex physical connections that make up its infrastructure, the Internet is facilitated by bi- or multi-lateral commercial contracts (e.g., peering agreements), and by technical specifications or protocols that describe how to exchange data over the network. Indeed, the Internet is essentially defined by its interconnections and routing policies.
+
+As of March 10, 2007, 1.114 billion people use the Internet according to Internet World Stats.
+
+
+Internet protocols
+For more details on this topic, see Internet Protocols. 
+In this context, there are three layers of protocols:
+
+At the lowest level is IP (Internet Protocol), which defines the datagrams or packets that carry blocks of data from one node to another. The vast majority of today's Internet uses version four of the IP protocol (i.e. IPv4), and although IPv6 is standardized, it exists only as "islands" of connectivity, and there are many ISPs without any IPv6 connectivity. [1] 
+Next come TCP (Transmission Control Protocol), UDP (User Datagram Protocol), and ICMP (Internet Control Message Protocol) - the protocols by which data is transmitted. TCP makes a virtual 'connection', which gives some level of guarantee of reliability. UDP is a best-effort, connectionless transport, in which data packets that are lost in transit will not be re-sent. ICMP is connectionless, it is used for control and signaling purposes. 
+On top comes the application protocol. This defines the specific messages and data formats sent and understood by the applications running at each end of the communication. 
+
+Internet structure
+There have been many analyses of the Internet and its structure. For example, it has been determined that the Internet IP routing structure and hypertext links of the World Wide Web are examples of scale-free networks.
+
+Similar to the way the commercial Internet providers connect via Internet exchange points, research networks tend to interconnect into large subnetworks such as:
+
+GEANT 
+GLORIAD 
+Abilene Network 
+JANET (the UK's Joint Academic Network aka UKERNA) 
+These in turn are built around relatively smaller networks. See also the list of academic computer network organizations
+
+In network schematic diagrams, the Internet is often represented by a cloud symbol, into and out of which network communications can pass.
+
+
+ICANN
+For more details on this topic, see ICANN. 
+The Internet Corporation for Assigned Names and Numbers (ICANN) is the authority that coordinates the assignment of unique identifiers on the Internet, including domain names, Internet Protocol (IP) addresses, and protocol port and parameter numbers. A globally unified namespace (i.e., a system of names in which there is one and only one holder of each name) is essential for the Internet to function. ICANN is headquartered in Marina del Rey, California, but is overseen by an international board of directors drawn from across the Internet technical, business, academic, and non-commercial communities. The US government continues to have the primary role in approving changes to the root zone file that lies at the heart of the domain name system. Because the Internet is a distributed network comprising many voluntarily interconnected networks, the Internet, as such, has no governing body. ICANN's role in coordinating the assignment of unique identifiers distinguishes it as perhaps the only central coordinating body on the global Internet, but the scope of its authority extends only to the Internet's systems of domain names, IP addresses, and protocol port and parameter numbers.
+
+On November 16, 2005, the World Summit on the Information Society, held in Tunis, established the Internet Governance Forum (IGF) to discuss Internet-related issues.
+
+
+Language
+For more details on this topic, see English on the Internet. 
+The prevalent language for communication on the Internet is English. This may be a result of the Internet's origins, as well as English's role as the lingua franca. It may also be related to the poor capability of early computers to handle characters other than those in the basic Latin alphabet.
+
+Further information: Unicode 
+After English (30% of Web visitors) the most-requested languages on the World Wide Web are Chinese 14%, Japanese 8%, Spanish 8%, German 5%, and French 5% (from Internet World Stats, updated January 11, 2007).
+
+By continent, 36% of the world's Internet users are based in Asia, 29% in Europe, and 21% in North America ([2] updated January 11, 2007).
+
+The Internet's technologies have developed enough in recent years that good facilities are available for development and communication in most widely used languages. However, some glitches such as mojibake (incorrect display of foreign language characters, also known as krakozyabry) still remain.
+
+
+Internet and the workplace
+The Internet is allowing greater flexibility in working hours and location, especially with the spread of unmetered high-speed connections and Web applications.
+
+
+The mobile Internet
+The Internet can now be accessed virtually anywhere by numerous means. Mobile phones, datacards, handheld game consoles and cellular routers allow users to connect to the Internet from anywhere there is a cellular network supporting that device's technology.
+
+
+Common uses of the Internet
+
+E-mail
+For more details on this topic, see E-mail. 
+The concept of sending electronic text messages between parties in a way analogous to mailing letters or memos predates the creation of the Internet. Even today it can be important to distinguish between Internet and internal e-mail systems. Internet e-mail may travel and be stored unencrypted on many other machines and networks out of both the sender's and the recipient's control. During this time it is quite possible for the content to be read and even tampered with by third parties, if anyone considers it important enough. Purely internal or intranet mail systems, where the information never leaves the corporate or organization's network and servers, is much more secure, although in any organization there will be IT and other personnel whose job may involve monitoring, or at least occasionally accessing, the email of other employees not addressed to them. Web-based email (webmail) between parties on the same webmail system may not actually 'go' anywhere—it merely sits on the one server and is tagged in various ways so as to appear in one person's 'sent items' list and in one or more others' 'in boxes' or other 'folders' when viewed.
+
+E-mail attachments have greatly increased the usefulness of e-mail in many ways. When a file is attached to an email, a text representation of the attached data (which may itself be binary data) is actually appended to the e-mail text, later to be reconstituted into a 'file' on the recipient's machine for their use. See MIME (Multipurpose Internet Mail Extensions) for details of how the problems involved in doing this have been overcome.
+
+
+The World Wide Web
+For more details on this topic, see World Wide Web. 
+ 
+Graphic representation of less than 0.0001% of the WWW, representing some of the hyperlinksThrough keyword-driven Internet research using search engines, like Google, millions worldwide have easy, instant access to a vast and diverse amount of online information. Compared to encyclopedias and traditional libraries, the World Wide Web has enabled a sudden and extreme decentralization of information and data.
+
+Many individuals and some companies and groups have adopted the use of "Web logs" or blogs, which are largely used as easily-updatable online diaries. Some commercial organizations encourage staff to fill them with advice on their areas of specialization in the hope that visitors will be impressed by the expert knowledge and free information, and be attracted to the corporation as a result. One example of this practice is Microsoft, whose product developers publish their personal blogs in order to pique the public's interest in their work.
+
+For more information on the distinction between the World Wide Web and the Internet itself — as in everyday use the two are sometimes confused — see Dark internet where this is discussed in more detail.
+
+
+Remote access
+The Internet allows computer users to connect to other computers and information stores easily, wherever they may be across the world. They may do this with or without the use of security, authentication and encryption technologies, depending on the requirements.
+
+This is encouraging new ways of working from home, collaboration and information sharing in many industries. An accountant sitting at home can audit the books of a company based in another country, on a server situated in a third country that is remotely maintained by IT specialists in a fourth. These accounts could have been created by home-working book-keepers, in other remote locations, based on information e-mailed to them from offices all over the world. Some of these things were possible before the widespread use of the Internet, but the cost of private, leased lines would have made many of them infeasible in practice.
+
+An office worker away from his desk, perhaps the other side of the world on a business trip or a holiday, can open a remote desktop session into his normal office PC using a secure Virtual Private Network (VPN) connection via the Internet. This gives him complete access to all his normal files and data, including e-mail and other applications, while he is away.
+
+This concept is also referred to by some network security people as the Virtual Private Nightmare, because it extends the secure perimeter of a corporate network into its employees' homes; this has been the source of some notable security breaches, but also provides security for the workers.
+
+
+Collaboration
+See also: Collaborative software 
+The low-cost and nearly instantaneous sharing of ideas, knowledge, and skills has made collaborative work dramatically easier. Not only can a group cheaply communicate and test, but the wide reach of the Internet allows such groups to easily form in the first place, even among niche interests. An example of this is the free software movement in software development which produced GNU and Linux from scratch and has taken over development of Mozilla and OpenOffice.org (formerly known as Netscape Communicator and StarOffice).
+
+Internet 'chat', whether in the form of IRC 'chat rooms' or channels, or via instant messaging systems allow colleagues to stay in touch in a very convenient way when working at their computers during the day. Messages can be sent and viewed even more quickly and conveniently than via e-mail. Extension to these systems may allow files to be exchanged, 'whiteboard' drawings to be shared as well as voice and video contact between team members.
+
+Version control systems allow collaborating teams to work on shared sets of documents without either accidentally overwriting each other's work or having members wait until they get 'sent' documents to be able to add their thoughts and changes.
+
+
+File sharing
+For more details on this topic, see File sharing. 
+A computer file can be e-mailed to customers, colleagues and friends as an attachment. It can be uploaded to a Web site or FTP server for easy download by others. It can be put into a "shared location" or onto a file server for instant use by colleagues. The load of bulk downloads to many users can be eased by the use of "mirror" servers or peer-to-peer networks. In any of these cases, access to the file may be controlled by user authentication; the transit of the file over the Internet may be obscured by encryption and money may change hands before or after access to the file is given. The price can be paid by the remote charging of funds from, for example a credit card whose details are also passed - hopefully fully encrypted - across the Internet. The origin and authenticity of the file received may be checked by digital signatures or by MD5 or other message digests.
+
+These simple features of the Internet, over a world-wide basis, are changing the basis for the production, sale, and distribution of anything that can be reduced to a computer file for transmission. This includes all manner of office documents, publications, software products, music, photography, video, animations, graphics and the other arts. This in turn is causing seismic shifts in each of the existing industry associations, such as the RIAA and MPAA in the United States, that previously controlled the production and distribution of these products in that country.
+
+
+Streaming media
+Many existing radio and television broadcasters provide Internet 'feeds' of their live audio and video streams (for example, the BBC). They may also allow time-shift viewing or listening such as Preview, Classic Clips and Listen Again features. These providers have been joined by a range of pure Internet 'broadcasters' who never had on-air licenses. This means that an Internet-connected device, such as a computer or something more specific, can be used to access on-line media in much the same way as was previously possible only with a television or radio receiver. The range of material is much wider, from pornography to highly specialized technical Web-casts. Podcasting is a variation on this theme, where—usually audio—material is first downloaded in full and then may be played back on a computer or shifted to a digital audio player to be listened to on the move. These techniques using simple equipment allow anybody, with little censorship or licensing control, to broadcast audio-visual material on a worldwide basis.
+
+Webcams can be seen as an even lower-budget extension of this phenomenon. While some webcams can give full frame rate video, the picture is usually either small or updates slowly. Internet users can watch animals around an African waterhole, ships in the Panama Canal, the traffic at a local roundabout or their own premises, live and in real time. Video chat rooms, video conferencing, and remote controllable webcams are also popular. Many uses can be found for personal webcams in and around the home, with and without two-way sound.
+
+
+Voice telephony (VoIP)
+For more details on this topic, see VoIP. 
+VoIP stands for Voice over IP, where IP refers to the Internet Protocol that underlies all Internet communication. This phenomenon began as an optional two-way voice extension to some of the Instant Messaging systems that took off around the year 2000. In recent years many VoIP systems have become as easy to use and as convenient as a normal telephone. The benefit is that, as the Internet carries the actual voice traffic, VoIP can be free or cost much less than a normal telephone call, especially over long distances and especially for those with always-on ADSL or DSL Internet connections.
+
+Thus VoIP is maturing into a viable alternative to traditional telephones. Interoperability between different providers has improved and the ability to call or receive a call from a traditional telephone is available. Simple inexpensive VoIP modems are now available that eliminate the need for a PC.
+
+Voice quality can still vary from call to call but is often equal to and can even exceed that of traditional calls.
+
+Remaining problems for VoIP include emergency telephone number dialing and reliability. Currently a few VoIP providers provide some 911 dialing but it is not universally available. Traditional phones are line powered and operate during a power failure, VoIP does not do so without a backup power source for the electronics.
+
+Most VoIP providers offer unlimited national calling but the direction in VoIP is clearly toward global coverage with unlimited minutes for a low monthly fee.
+
+VoIP has also become increasingly popular within the gaming world, as a form of communication between players. Popular gaming VoIP clients include Ventrilo and Teamspeak, and there are others available also.
+
+
+Censorship
+For more details on this topic, see Internet censorship. 
+Some governments, such as those of Iran, the People's Republic of China and Cuba, restrict what people in their countries can access on the Internet, especially political and religious content. This is accomplished through software that filters domains and content so that they may not be easily accessed or obtained without elaborate circumvention.
+
+In Norway, Finland and Sweden, major Internet service providers have voluntarily (possibly to avoid such an arrangement being turned into law) agreed to restrict access to sites listed by police. While this list of forbidden URLs is only supposed to contain addresses of known child pornography sites, content of the list is secret.
+
+Many countries have enacted laws making the possession or distribution of certain material, such as child pornography, illegal, but do not use filtering software.
+
+There are many free and commercially available software programs with which a user can choose to block offensive Web sites on individual computers or networks, such as to limit a child's access to pornography or violence. See Content-control software.
+
+
+Internet access
+For more details on this topic, see Internet access. 
+Wikibooks has more about this subject: 
+Online linux connectCommon methods of home access include dial-up, landline broadband (over coaxial cable, fibre optic or copper wires), Wi-Fi, satellite and cell phones.
+
+Public places to use the Internet include libraries and Internet cafes, where computers with Internet connections are available. There are also Internet access points in many public places such as airport halls and coffee shops, in some cases just for brief use while standing. Various terms are used, such as "public Internet kiosk", "public access terminal", and "Web payphone". Many hotels now also have public terminals, though these are usually fee-based.
+
+Wi-Fi provides wireless access to computer networks, and therefore can do so to the Internet itself. Hotspots providing such access include Wi-Fi-cafes, where a would-be user needs to bring their own wireless-enabled devices such as a laptop or PDA. These services may be free to all, free to customers only, or fee-based. A hotspot need not be limited to a confined location. The whole campus or park, or even the entire city can be enabled. Grassroots efforts have led to wireless community networks. Commercial WiFi services covering large city areas are in place in London, Vienna, San Francisco, Philadelphia, Chicago, Pittsburgh and other cities, including Toronto by the end of 2006. The Internet can then be accessed from such places as a park bench.[2]
+
+Apart from Wi-Fi, there have been experiments with proprietary mobile wireless networks like Ricochet, various high-speed data services over cellular phone networks, and fixed wireless services.
+
+High-end mobile phones such as smartphones generally come with Internet access through the phone network. Web browsers such as Opera are available on these advanced handsets, which can also run a wide variety of other Internet software. More mobile phones have Internet access than PCs, though this is not as widely used. An Internet access provider and protocol matrix differentiates the methods used to get online.
+
+
+Leisure
+The Internet has been a major source of leisure since before the World Wide Web, with entertaining social experiments such as MUDs and MOOs being conducted on university servers, and humor-related Usenet groups receiving much of the main traffic. Today, many Internet forums have sections devoted to games and funny videos; short cartoons in the form of Flash movies are also popular. Over 6 million people use blogs or message boards as a means of communication and for the sharing of ideas.
+
+The pornography and gambling industries have both taken full advantage of the World Wide Web, and often provide a significant source of advertising revenue for other Web sites. Although many governments have attempted to put restrictions on both industries' use of the Internet, this has generally failed to stop their widespread popularity. A song in the Broadway musical show Avenue Q is titled "The Internet is for Porn" and refers to the popularity of this aspect of the Internet.
+
+One main area of leisure on the Internet is multiplayer gaming. This form of leisure creates communities, bringing people of all ages and origins to enjoy the fast-paced world of multiplayer games. These range from MMORPG to first-person shooters, from role-playing games to online gambling. This has revolutionized the way many people interact and spend their free time on the Internet.
+
+While online gaming has been around since the 1970s, modern modes of online gaming began with services such as GameSpy and MPlayer, which players of games would typically subscribe to. Non-subscribers were limited to certain types of gameplay or certain games.
+
+Many use the Internet to access and download music, movies and other works for their enjoyment and relaxation. As discussed above, there are paid and unpaid sources for all of these, using centralized servers and distributed peer-to-peer technologies. Discretion is needed as some of these sources take more care over the original artists' rights and over copyright laws than others.
+
+Many use the World Wide Web to access news, weather and sports reports, to plan and book holidays and to find out more about their random ideas and casual interests.
+
+People use chat, messaging and email to make and stay in touch with friends worldwide, sometimes in the same way as some previously had pen pals. Social networking Web sites like Friends Reunited and many others like them also put and keep people in contact for their enjoyment.
+
+The Internet has seen a growing amount of Internet operating systems, where users can access their files, folders, and settings via the Internet. An example of an opensource webos is Eyeos.
+
+Cyberslacking has become a serious drain on corporate resources; the average UK employee spends 57 minutes a day surfing the Web at work, according to a study by Peninsula Business Services [3].
+
+
+Complex architecture
+Many computer scientists see the Internet as a "prime example of a large-scale, highly engineered, yet highly complex system".[3] The Internet is extremely heterogeneous. (For instance, data transfer rates and physical characteristics of connections vary widely.) The Internet exhibits "emergent phenomena" that depend on its large-scale organization. For example, data transfer rates exhibit temporal self-similarity. Further adding to the complexity of the Internet is the ability of more than one computer to use the Internet through only one node, thus creating the possibility for a very deep and hierarchal based sub-network that can theoretically be extended infinitely (disregarding the programmatic limitations of the IPv4 protocol).
+
+ This section is a stub. You can help by expanding it. 
+
+
+Marketing
+The Internet has also become a large market for companies; some of the biggest companies today have grown by taking advantage of the efficient nature of low-cost advertising and commerce through the Internet; also known as e-commerce. It is the fastest way to spread information to a vast amount of people simultaneously. The Internet has also subsequently revolutionized shopping—for example; a person can order a CD online and receive it in the mail within a couple of days, or download it directly in some cases. The Internet has also greatly facilitated personalized marketing which allows a company to market a product to a specific person or a specific group of people more so than any other advertising medium.
+
+Examples of personalized marketing include online communities such as MySpace, Friendster, Orkut, and others which thousands of Internet users join to advertise themselves and make friends online. Many of these users are young teens and adolescents ranging from 13 to 25 years old. In turn, when they advertise themselves they advertise interests and hobbies, which online marketing companies can use as information as to what those users will purchase online, and advertise their own companies' products to those users.
+
+A very ineffective way of advertising on the Internet is through spamming an email with advertisements.[original research?] This is ineffective because, now, most email providers offer protection against email spam. Most spam messages are sent automatically to everybody in the email database of the company/person that is spamming. This way of advertising is almost like using adware.
+
+Adware is another ineffective way of advertising because most people simply close a popup window when it shows up, not bothering to read it.[original research?]
+
+Further information: Disintermediation#Impact of Internet-related disintermediation upon various industries and Travel agency#The Internet threat 
+
+The name Internet
+For more details on this topic, see Internet capitalization conventions. 
+Look up Internet, internet in Wiktionary, the free dictionary.Internet is traditionally written with a capital first letter, as it is a proper noun. The Internet Society, the Internet Engineering Task Force, the Internet Corporation for Assigned Names and Numbers, the World Wide Web Consortium, and several other Internet-related organizations use this convention in their publications.
+
+Many newspapers, newswires, periodicals, and technical journals capitalize the term (Internet). Examples include The New York Times, the Associated Press, Time, The Times of India, Hindustan Times, and Communications of the ACM.
+
+Others assert that the first letter should be in lower case (internet), and that the specific article “the” is sufficient to distinguish “the internet” from other internets. A significant number of publications use this form, including The Economist, the Canadian Broadcasting Corporation, the Financial Times, The Guardian, The Times, and The Sydney Morning Herald. As of 2005, many publications using internet appear to be located outside of North America—although one U.S. news source, Wired News, has adopted the lower-case spelling.
+
+Historically, Internet and internet have had different meanings, with internet meaning “an interconnected set of distinct networks,” and Internet referring to the world-wide, publicly-available IP internet. Under this distinction, the Internet is a particular internet. Any group of distinct networks connected together is an internet; each of these networks may or may not be part of the Internet. The distinction was evident in many RFCs, books, and articles from the 1980s and early 1990s (some of which, such as RFC 1918, refer to "internets" in the plural), but has recently fallen into disuse.[citation needed] Instead, the term intranet is generally used for private networks. See also: extranet.
+
+Some people use the lower-case term as a medium (like radio or newspaper, e.g. I've found it in internet), and capitalised (or first letter capitalised) as the global network.
+
+
+
+
+
+See also
+Find more information on Internet by searching Wikipedia's sister projects 
+ Dictionary definitions from Wiktionary 
+ Textbooks from Wikibooks 
+ Quotations from Wikiquote 
+ Source texts from Wikisource 
+ Images and media from Commons 
+ News stories from Wikinews 
+ Learning resources from Wikiversity 
+Main lists: List of basic internet topics and List of Internet topics 
+
+Major aspects and issues
+Internet democracy 
+History of the Internet 
+Net neutrality 
+Privacy on the Internet 
+
+Functions
+E-mail 
+File-sharing 
+Instant messaging 
+Internet fax 
+Search engine 
+World Wide Web 
+
+Underlying infrastructure
+Hypertext Transfer Protocol (HTTP) 
+Internet Service Provider (ISP) 
+Web hosting 
+
+Regulatory bodies
+Internet Assigned Numbers Authority (IANA) 
+Internet Corporation for Assigned Names and Numbers (ICANN) 
+
+References
+
+Citations and notes
+^ Whats My IP 
+^ "Toronto Hydro to Install Wireless Network in Downtown Toronto". Bloomberg.com. Retrieved 19-Mar-2006. 
+^ Walter Willinger, Ramesh Govindan, Sugih Jamin, Vern Paxson, and Scott Shenker (2002). Scaling phenomena in the Internet. In Proceedings of the National Academy of Sciences, 99, suppl. 1, 2573 – 2580. 
+
+General
+Living Internet — Internet history and related information, including information from many creators of the Internet 
+First Monday peer-reviewed journal on the Internet 
+
+External links
+Wikibooks has a book on the topic of 
+The Information Age
+General
+Internet webcams from around the world 
+Read Congressional Research Service (CRS) Reports regarding the Internet 
+Glossary of Computer and Internet Terms 
+Internet Health Report from Keynote 
+Internet World Stats 
+
+Articles
+CNN: Web reaches new milestone: 100 million sites 
+"EU and U.S. clash over control of the Net" - International Herald Tribune article by Tom Wright 
+"10 Years that changed the world" - WiReD looks back at the evolution of the Internet over last 10 years 
+Internet Explained Seven part article explaining the origins to the present and a summary of predictions for the future of the Internet. 
+John Walker: The Digital Imprimatur 
+How Stuff Works explanation of the Infrastructure of the Internet 
+How the Internet actually works An article summarizing the core Internet technologies, written for non-experts 
+
+History
+The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal M. Mitchell Waldrop 
+The Internet Society History Page 
+How the Internet Came to Be 
+Hobbes' Internet Timeline v8.1 
+Futures and Non-futures for Scholarly Internet. 
+History of the Internet links 
+RFC 801, planning the TCP/IP switchover 
+Video of a report on the Internet - before the Web 
+Vinton Cerf's short history of the Internet 
+Internet Archive - A searchable database of old cached versions of Web sites dating back to 1996 
+A comprehensive history with people, concepts and many interesting quotations 
+CBC Digital Archives – Inventing the Internet Age 
+A list of lectures, some of which relate to the Internet, from the Massachusetts Institute of Technology is available here. Of particular interest is lecture #3 The Next Big Thing: Video Internet which is delivered in Real Player format. The lecture gives a brief history of networking; discusses convergence between the Internet/telephone/television networks; the expansion of broadband access; makes predictions about the future of delivery of video over the Internet. 
+Retrieved from "http://en.wikipedia.org/wiki/Internet"
+Contents [hide]
+1 Before the Internet 
+1.1 Three terminals and an ARPA 
+1.2 Switched packets 
+2 Networks that led to the Internet 
+2.1 ARPANET 
+2.2 X.25 and public access 
+2.3 UUCP 
+3 Merging the networks and creating the Internet 
+3.1 TCP/IP 
+3.2 ARPANET to NSFNet 
+3.3 The transition toward an Internet 
+4 TCP/IP becomes worldwide 
+4.1 CERN, the European internet, the link to the Pacific and beyond 
+4.2 A digital divide 
+5 Opening the network to commerce 
+5.1 The IETF and a standard for standards 
+5.2 NIC, InterNIC, IANA and ICANN 
+6 Use and culture 
+6.1 Email and Usenet—The growth of the text forum 
+6.2 A world library—From gopher to the WWW 
+6.3 Finding what you need—The search engine 
+6.4 The dot-com bubble 
+6.5 Recent trends 
+7 Notable malfunctions and attacks 
+8 Footnotes 
+9 References 
+10 External links 
+ 
+
+
+[edit] Before the Internet
+History of computing 
+Hardware before 1960 
+Hardware 1960s to present 
+Hardware in Soviet Bloc countries 
+ 
+Operating systems 
+Software engineering 
+Programming languages 
+ 
+Graphical user interface 
+Internet 
+World Wide Web 
+Computer and video games 
+ 
+Timeline of computing 
+Timeline of computing 2400 BC-1949 
+1950-1979 
+1980-1989 
+1990- 
+More timelines... 
+ 
+ 
+More... 
+In the fifties and early sixties, prior to the widespread inter-networking that led to the Internet, most communication networks were limited by their nature to only allow communications between the stations on the network. Some networks had gateways or bridges between them, but these bridges were often limited or built specifically for a single use. One prevalent computer networking method was based on the central mainframe method, simply allowing its terminals to be connected via long leased lines. This method was used in the 1950s by Project RAND to support researchers such as Herbert Simon, in Pittsburgh, Pennsylvania, when collaborating across the continent with researchers in Santa Monica, California, on automated theorem proving and artificial intelligence. The Internet system was developed and ready in the Late 1980s, but The Cold War held up the progress. When it ended in 1992, the internet slowly became mainstream. By the end of the decade, millions were using it for business, education and pleasure.
+
+
+[edit] Three terminals and an ARPA
+Advanced Research Projects Agency was renamed to Defense Advanced Research Projects Agency (DARPA) in 1972 A fundamental pioneer in the call for a global network, J.C.R. Licklider, articulated the idea in his January 1960 paper, Man-Computer Symbiosis.
+
+"A network of such [computers], connected to one another by wide-band communication lines" which provided "the functions of present-day libraries together with anticipated advances in information storage and retrieval and [other] symbiotic functions. "—J.C.R. Licklider[1] 
+In October 1962, Licklider was appointed head of the United States Department of Defense's DARPA information processing office, and formed an informal group within DARPA to further computer research. As part of the information processing office's role, three network terminals had been installed: one for System Development Corporation in Santa Monica, one for Project Genie at the University of California, Berkeley and one for the Multics project SHOPPING at the Massachusetts Institute of Technology (MIT). Licklider's need for inter-networking would be made evident by the problems this caused.
+
+"For each of these three terminals, I had three different sets of user commands. So if I was talking online with someone at S.D.C. and I wanted to talk to someone I knew at Berkeley or M.I.T. about this, I had to get up from the S.D.C. terminal, go over and log into the other terminal and get in touch with them. 
+I said,it's obvious what to do (But I don't want to do it): If you have these three terminals, there ought to be one terminal that goes anywhere you want to go where you have interactive computing. That idea is the ARPAnet." -Robert W. Taylor, co-writer with Licklider of "The Computer as a Communications Device", in an interview with the New York Times[2] 
+
+[edit] Switched packets
+Main article: Packet switching
+At the tip of the inter-networking problem lay the issue of connecting separate physical networks to form one logical network. During the 1960s, Donald Davies (NPL), Paul Baran (RAND Corporation), and Leonard Kleinrock (MIT) developed and implemented packet switching. The notion that the Internet was developed to survive a nuclear attack has its roots in the early theories developed by RAND. Baran's research had approached packet switching from studies of decentralisation to avoid combat damage compromising the entire network.[3]
+
+
+[edit] Networks that led to the Internet
+
+[edit] ARPANET
+Main article: ARPANET
+ 
+Len Kleinrock and the first IMP.[4]Promoted to the head of the information processing office at ARPA, Robert Taylor intended to realize Licklider's ideas of an interconnected networking system. Bringing in Larry Roberts from MIT, he initiated a project to build such a network. The first ARPANET link was established between the University of California, Los Angeles and the Stanford Research Institute on 21 November 1969. By 5 December 1969, a 4-node network was connected by adding the University of Utah and the University of California, Santa Barbara. Building on ideas developed in ALOHAnet, the ARPANET started in 1972 and was growing rapidly, by 1981 the number of hosts had grown to 213, with a new host being added approximately every twenty days.[5][6]
+
+ARPANET became the technical core of what would become the Internet, and a primary tool in developing the technologies used. ARPANET development was centered around the Request for Comments (RFC) process, still used today for proposing and distributing Internet Protocols and Systems. RFC 1, entitled "Host Software", was written by Steve Crocker from the University of California, Los Angeles, and published on April 7, 1969. These early years were documented in the 1972 film Computer Networks: The Heralds of Resource Sharing.
+
+International collaborations on ARPANET were sparse. For various political reasons, European developers were concerned with developing the X.25 networks. Notable exceptions were the Norwegian Seismic Array (NORSAR) in 1972, followed in 1973 by Sweden with satellite links to the Tanum Earth Station and University College London.[7]
+
+
+[edit] X.25 and public access
+Main articles: X.25, Bulletin board system, and FidoNet
+Following on from DARPA's research, packet switching network standards were developed by the International Telecommunication Union (ITU) in the form of X.25 and related standards. In 1974, X.25 formed the basis for the SERCnet network between British academic and research sites, which later became JANET. The initial ITU Standard on X.25 was approved in March 1976. This standard was based on the concept of virtual circuits.
+
+The British Post Office, Western Union International and Tymnet collaborated to create the first international packet switched network, referred to as the International Packet Switched Service (IPSS), in 1978. This network grew from Europe and the US to cover Canada, Hong Kong and Australia by 1981. By the 1990s it provided a worldwide networking infrastructure.[8]
+
+Unlike ARPAnet, X.25 was also commonly available for business use. X.25 would be used for the first dial-in public access networks, such as Compuserve and Tymnet. In 1979, CompuServe became the first service to offer electronic mail capabilities and technical support to personal computer users. The company broke new ground again in 1980 as the first to offer real-time chat with its CB Simulator. There were also the America Online (AOL) and Prodigy dial in networks and many bulletin board system (BBS) networks such as FidoNet. FidoNet in particular was popular amongst hobbyist computer users, many of them hackers and amateur radio operators.
+
+
+[edit] UUCP
+Main articles: UUCP and Usenet
+In 1979, two students at Duke University, Tom Truscott and Jim Ellis, came up with the idea of using simple Bourne shell scripts to transfer news and messages on a serial line with nearby University of North Carolina at Chapel Hill. Following public release of the software, the mesh of UUCP hosts forwarding on the Usenet news rapidly expanded. UUCPnet, as it would later be named, also created gateways and links between FidoNet and dial-up BBS hosts. UUCP networks spread quickly due to the lower costs involved, and ability to use existing leased lines, X.25 links or even ARPANET connections. By 1983 the number of UUCP hosts had grown to 550, nearly doubling to 940 in 1984...........
+
+
+[edit] Merging the networks and creating the Internet
+
+[edit] TCP/IP
+Main article: Internet protocol suite
+ 
+Map of the TCP/IP test network in January 1982With so many different network methods, something needed to unify them. Robert E. Kahn of DARPA and ARPANET recruited Vint Cerf of Stanford University to work with him on the problem. By 1973, they had soon worked out a fundamental reformulation, where the differences between network protocols were hidden by using a common internetwork protocol, and instead of the network being responsible for reliability, as in the ARPANET, the hosts became responsible. Cerf credits Hubert Zimmerman, Gerard LeLann and Louis Pouzin (designer of the CYCLADES network) with important work on this design.[9]
+
+With the role of the network reduced to the bare minimum, it became possible to join almost any networks together, no matter what their characteristics were, thereby solving Kahn's initial problem. DARPA agreed to fund development of prototype software, and after several years of work, the first somewhat crude demonstration of a gateway between the Packet Radio network in the SF Bay area and the ARPANET was conducted. By November 1977 a three network demonstration was conducted including the ARPANET, the Packet Radio Network and the Atlantic Packet Satellite network—all sponsored by DARPA. Stemming from the first specifications of TCP in 1974, TCP/IP emerged in mid-late 1978 in nearly final form. By 1981, the associated standards were published as RFCs 791, 792 and 793 and adopted for use. DARPA sponsored or encouraged the development of TCP/IP implementations for many operating systems and then scheduled a migration of all hosts on all of its packet networks to TCP/IP. On 1 January 1983, TCP/IP protocols became the only approved protocol on the ARPANET, replacing the earlier NCP protocol.[10]
+
+
+[edit] ARPANET to NSFNet
+Main articles: ARPANET and NSFNet
+After the ARPANET had been up and running for several years, ARPA looked for another agency to hand off the network to; ARPA's primary business was funding cutting-edge research and development, not running a communications utility. Eventually, in July 1975, the network had been turned over to the Defense Communications Agency, also part of the Department of Defense. In 1983, the U.S. military portion of the ARPANET was broken off as a separate network, the MILNET.
+
+The networks based around the ARPANET were government funded and therefore restricted to noncommercial uses such as research; unrelated commercial use was strictly forbidden. This initially restricted connections to military sites and universities. During the 1980s, the connections expanded to more educational institutions, and even to a growing number of companies such as Digital Equipment Corporation and Hewlett-Packard, which were participating in research projects or providing services to those who were.
+
+Another branch of the U.S. government, the National Science Foundation (NSF), became heavily involved in internet research and started development of a successor to ARPANET. In 1984 this resulted in CSNET, the first Wide Area Network designed specifically to use TCP/IP. CSNET connected with ARPANET using TCP/IP, and ran TCP/IP over X.25, but it also supported departments without sophisticated network connections, using automated dial-up mail exchange. This grew into the NSFNet backbone, established in 1986, and intended to connect and provide access to a number of supercomputing centers established by the NSF.[11]
+
+
+[edit] The transition toward an Internet
+The term "Internet" was adopted in the first RFC published on the TCP protocol (RFC 675: Internet Transmission Control Protocol). It was around the time when ARPANET was interlinked with NSFNet, that the term Internet came into more general use,[12] with "an internet" meaning any network using TCP/IP. "The Internet" came to mean a global and large network using TCP/IP. Previously "internet" and "internetwork" had been used interchangeably, and "internet protocol" had been used to refer to other networking systems such as Xerox Network Services.[13]
+
+As interest in wide spread networking grew and new applications for it arrived, the Internet's technologies spread throughout the rest of the world. TCP/IP's network-agnostic approach meant that it was easy to use any existing network infrastructure, such as the IPSS X.25 network, to carry Internet traffic. In 1984, University College London replaced its transatlantic satellite links with TCP/IP over IPSS.
+
+Many sites unable to link directly to the Internet started to create simple gateways to allow transfer of e-mail, at that time the most important application. Sites which only had intermittent connections used UUCP or FidoNet and relied on the gateways between these networks and the Internet. Some gateway services went beyond simple e-mail peering, such as allowing access to FTP sites via UUCP or e-mail.
+
+
+[edit] TCP/IP becomes worldwide
+The first ARPANET connection outside the US was established to NORSAR in Norway in 1973, just ahead of the connection to Great Britain. These links were all converted to TCP/IP in 1982, at the same time as the rest of the Arpanet.
+
+
+[edit] CERN, the European internet, the link to the Pacific and beyond
+Between 1984 and 1988 CERN began installation and operation of TCP/IP to interconnect its major internal computer systems, workstations, PC's and an accelerator control system. CERN continued to operate a limited self-developed system CERNET internally and several incompatible (typically proprietary) network protocols externally. There was considerable resistance in Europe towards more widespread use of TCP/IP and the CERN TCP/IP intranets remained isolated from the rest of the Internet until 1989.
+
+In 1988 Daniel Karrenberg, from CWI in Amsterdam, visited Ben Segal, CERN's TCP/IP Coordinator, looking for advice about the transition of the European side of the UUCP Usenet network (much of which ran over X.25 links) over to TCP/IP. In 1987, Ben Segal had met with Len Bosack from the then still small company Cisco about purchasing some TCP/IP routers for CERN, and was able to give Karrenberg advice and forward him on to Cisco for the appropriate hardware. This expanded the European portion of the Internet across the existing UUCP networks, and in 1989 CERN opened its first external TCP/IP connections.[14] This coincided with the creation of Réseaux IP Européens (RIPE), initially a group of IP network administrators who met regularly to carry out co-ordination work together. Later, in 1992, RIPE was formally registered as a cooperative in Amsterdam.
+
+At the same time as the rise of internetworking in Europe, adhoc networking to ARPA and in-between Australian universities formed, based on various technologies such as X.25 and UUCPNet. These were limited in their connection to the global networks, due to the cost of making individual international UUCP dial-up or X.25 connections. In 1989, Australian universities joined the push towards using IP protocols to unify their networking infrastructures. AARNet was formed in 1989 by the Australian Vice-Chancellors' Committee and provided a dedicated IP based network for Australia.
+
+The Internet began to penetrate Asia in the late 1980s. Japan, which had built the UUCP-based network JUNET in 1984, connected to NSFNet in 1989. It hosted the annual meeting of the Internet Society, INET'92, in Kobe. Singapore developed TECHNET in 1990, and Thailand gained a global Internet connection between Chulalongkorn University and UUNET in 1992.[15]
+
+
+[edit] A digital divide
+Main articles: Digital divide and Internet in the People's Republic of China
+While developed countries with technological infrastructures were joining the Internet, developing countries began to experience a digital divide separating them from the Internet. At the beginning of the 1990s, African countries relied upon X.25 IPSS and 2400 baud modem UUCP links for international and internetwork computer communications. In 1996 a USAID funded project, the Leland initiative, started work on developing full Internet connectivity for the continent. Guinea, Mozambique, Madagascar and Rwanda gained satellite earth stations in 1997, followed by Côte d'Ivoire and Benin in 1998.
+
+In 1991, the People's Republic of China saw its first TCP/IP college network, Tsinghua University's TUNET. The PRC went on to make its first global Internet connection in 1994, between the Beijing Electro-Spectrometer Collaboration and Stanford University's Linear Accelerator Center. However, China went on to implement its own digital divide by implementing a country-wide content filter.[16]
+
+
+[edit] Opening the network to commerce
+The interest in commercial use of the Internet became a hotly debated topic. Although commercial use was forbidden, the exact definition of commercial use could be unclear and subjective. UUCPNet and the X.25 IPSS had no such restrictions, which would eventually see the official barring of UUCPNet use of ARPANET and NSFNet connections. Some UUCP links still remained connecting to these networks however, as administrators cast a blind eye to their operation.
+
+During the late 1980s, the first Internet service provider (ISP) companies were formed. Companies like PSINet, UUNET, Netcom, and Portal Software were formed to provide service to the regional research networks and provide alternate network access, UUCP-based email and Usenet News to the public. The first dial-up ISP, world.std.com, opened in 1989.
+
+This caused controversy amongst university users, who were outraged at the idea of noneducational use of their networks. Eventually, it was the commercial Internet service providers who brought prices low enough that junior colleges and other schools could afford to participate in the new arenas of education and research.
+
+By 1990, ARPANET had been overtaken and replaced by newer networking technologies and the project came to a close. In 1994, the NSFNet, now renamed ANSNET (Advanced Networks and Services) and allowing non-profit corporations access, lost its standing as the backbone of the Internet. Both government institutions and competing commercial providers created their own backbones and interconnections. Regional network access points (NAPs) became the primary interconnections between the many networks and the final commercial restrictions ended.
+
+
+[edit] The IETF and a standard for standards
+Main article: IETF
+The Internet has developed a significant subculture dedicated to the idea that the Internet is not owned or controlled by any one person, company, group, or organization. Nevertheless, some standardization and control is necessary for the system to function.
+
+The liberal Request for Comments (RFC) publication procedure engendered confusion about the Internet standardization process, and led to more formalization of official accepted standards. The IETF started in January of 1986 as a quarterly meeting of U.S. government funded researchers. Representatives from non-government vendors were invited starting with the fourth IETF meeting in October of that year.
+
+Acceptance of an RFC by the RFC Editor for publication does not automatically make the RFC into a standard. It may be recognized as such by the IETF only after experimentation, use, and acceptance have proved it to be worthy of that designation. Official standards are numbered with a prefix "STD" and a number, similar to the RFC naming style. However, even after becoming a standard, most are still commonly referred to by their RFC number.
+
+In 1992, the Internet Society, a professional membership society, was formed and the IETF was transferred to operation under it as an independent international standards body.
+
+
+[edit] NIC, InterNIC, IANA and ICANN
+Main articles: InterNIC, IANA, and ICANN
+The first central authority to coordinate the operation of the network was the Network Information Centre (NIC) at Stanford Research Institute (SRI) in Menlo Park, California. In 1972, management of these issues was given to the newly created Internet Assigned Numbers Authority (IANA). In addition to his role as the RFC Editor, Jon Postel worked as the manager of IANA until his death in 1998.
+
+As the early ARPANET grew, hosts were referred to by names, and a HOSTS.TXT file would be distributed from SRI International to each host on the network. As the network grew, this became cumbersome. A technical solution came in the form of the Domain Name System, created by Paul Mockapetris. The Defense Data Network—Network Information Center (DDN-NIC) at SRI handled all registration services, including the top-level domains (TLDs) of .mil, .gov, .edu, .org, .net, .com and .us, root nameserver administration and Internet number assignments under a United States Department of Defense contract.[17] In 1991, the Defense Information Systems Agency (DISA) awarded the administration and maintenance of DDN-NIC (managed by SRI up until this point) to Government Systems, Inc., who subcontracted it to the small private-sector Network Solutions, Inc.[18]
+
+Since at this point in history most of the growth on the Internet was coming from non-military sources, it was decided that the Department of Defense would no longer fund registration services outside of the .mil TLD. In 1993 the U.S. National Science Foundation, after a competitive bidding process in 1992, created the InterNIC to manage the allocations of addresses and management of the address databases, and awarded the contract to three organizations. Registration Services would be provided by Network Solutions; Directory and Database Services would be provided by AT&T; and Information Services would be provided by General Atomics.[19]
+
+In 1998 both IANA and InterNIC were reorganized under the control of ICANN, a California non-profit corporation contracted by the US Department of Commerce to manage a number of Internet-related tasks. The role of operating the DNS system was privatized and opened up to competition, while the central management of name allocations would be awarded on a contract tender basis.
+
+
+[edit] Use and culture
+
+[edit] Email and Usenet—The growth of the text forum
+Main articles: e-mail and Usenet
+E-mail is often called the killer application of the Internet. However, it actually predates the Internet and was a crucial tool in creating it. E-mail started in 1965 as a way for multiple users of a time-sharing mainframe computer to communicate. Although the history is unclear, among the first systems to have such a facility were SDC's Q32 and MIT's CTSS.[20]
+
+The ARPANET computer network made a large contribution to the evolution of e-mail. There is one report[21] indicating experimental inter-system e-mail transfers on it shortly after ARPANET's creation. In 1971 Ray Tomlinson created what was to become the standard Internet e-mail address format, using the @ sign to separate user names from host names.[22]
+
+A number of protocols were developed to deliver e-mail among groups of time-sharing computers over alternative transmission systems, such as UUCP and IBM's VNET e-mail system. E-mail could be passed this way between a number of networks, including ARPANET, BITNET and NSFNet, as well as to hosts connected directly to other sites via UUCP.
+
+In addition, UUCP allowed the publication of text files that could be read by many others. The News software developed by Steve Daniel and Tom Truscott in 1979 was used to distribute news and bulletin board-like messages. This quickly grew into discussion groups, known as newsgroups, on a wide range of topics. On ARPANET and NSFNet similar discussion groups would form via mailing lists, discussing both technical issues and more culturally focused topics (such as science fiction, discussed on the sflovers mailing list).
+
+
+[edit] A world library—From gopher to the WWW
+Main articles: History of the World Wide Web and World Wide Web
+As the Internet grew through the 1980s and early 1990s, many people realized the increasing need to be able to find and organize files and information. Projects such as Gopher, WAIS, and the FTP Archive list attempted to create ways to organize distributed data. Unfortunately, these projects fell short in being able to accommodate all the existing data types and in being able to grow without bottlenecks.[citation needed]
+
+One of the most promising user interface paradigms during this period was hypertext. The technology had been inspired by Vannevar Bush's "memex"[23] and developed through Ted Nelson's research on Project Xanadu and Douglas Engelbart's research on NLS.[24] Many small self-contained hypertext systems had been created before, such as Apple Computer's HyperCard.
+
+In 1991, Tim Berners-Lee was the first to develop a network-based implementation of the hypertext concept. This was after Berners-Lee had repeatedly proposed his idea to the hypertext and Internet communities at various conferences to no avail—no one would implement it for him. Working at CERN, Berners-Lee wanted a way to share information about their research. By releasing his implementation to public use, he ensured the technology would become widespread.[25] Subsequently, Gopher became the first commonly-used hypertext interface to the Internet. While Gopher menu items were examples of hypertext, they were not commonly perceived in that way. One early popular web browser, modeled after HyperCard, was ViolaWWW.
+
+Scholars generally agree, however, that the turning point for the World Wide Web began with the introduction[26] of the Mosaic (web browser)[27] in 1993, a graphical browser developed by a team at the National Center for Supercomputing Applications at the University of Illinois at Urbana-Champaign (NCSA-UIUC), led by Marc Andreessen. Funding for Mosaic came from the High-Performance Computing and Communications Initiative, a funding program initiated by then-Senator Al Gore's High Performance Computing and Communication Act of 1991 also known as the Gore Bill.[28]. Indeed, Mosaic's graphical interface soon became more popular than Gopher, which at the time was primarily text-based, and the WWW became the preferred interface for accessing the Internet.
+
+Mosaic was eventually superseded in 1994 by Andreessen's Netscape Navigator, which replaced Mosaic as the world's most popular browser. Competition from Internet Explorer and a variety of other browsers has almost completely displaced it. Another important event held on January 11, 1994, was The Superhighway Summit at UCLA's Royce Hall. This was the "first public conference bringing together all of the major industry, government and academic leaders in the field [and] also began the national dialogue about the Information Superhighway and its implications."[29]
+
+
+[edit] Finding what you need—The search engine
+Main article: Search engine
+Even before the World Wide Web, there were search engines that attempted to organize the Internet. The first of these was the Archie search engine from McGill University in 1990, followed in 1991 by WAIS and Gopher. All three of those systems predated the invention of the World Wide Web but all continued to index the Web and the rest of the Internet for several years after the Web appeared. There are still Gopher servers as of 2006, although there are a great many more web servers.
+
+As the Web grew, search engines and Web directories were created to track pages on the Web and allow people to find things. The first full-text Web search engine was WebCrawler in 1994. Before WebCrawler, only Web page titles were searched. Another early search engine, Lycos, was created in 1993 as a university project, and was the first to achieve commercial success. During the late 1990s, both Web directories and Web search engines were popular—Yahoo! (founded 1995) and Altavista (founded 1995) were the respective industry leaders.
+
+By August 2001, the directory model had begun to give way to search engines, tracking the rise of Google (founded 1998), which had developed new approaches to relevancy ranking. Directory features, while still commonly available, became after-thoughts to search engines.
+
+Database size, which had been a significant marketing feature through the early 2000s, was similarly displaced by emphasis on relevancy ranking, the methods by which search engines attempt to sort the best results first. Relevancy ranking first became a major issue circa 1996, when it became apparent that it was impractical to review full lists of results. Consequently, algorithms for relevancy ranking have continuously improved. Google's PageRank method for ordering the results has received the most press, but all major search engines continually refine their ranking methodologies with a view toward improving the ordering of results. As of 2006, search engine rankings are more important than ever, so much so that an industry has developed ("search engine optimizers", or "SEO") to help web-developers improve their search ranking, and an entire body of case law has developed around matters that affect search engine rankings, such as use of trademarks in metatags. The sale of search rankings by some search engines has also created controversy among librarians and consumer advocates.
+
+
+[edit] The dot-com bubble
+Main article: Dot-com bubble
+The suddenly low price of reaching millions worldwide, and the possibility of selling to or hearing from those people at the same moment when they were reached, promised to overturn established business dogma in advertising, mail-order sales, customer relationship management, and many more areas. The web was a new killer app—it could bring together unrelated buyers and sellers in seamless and low-cost ways. Visionaries around the world developed new business models, and ran to their nearest venture capitalist. Of course a proportion of the new entrepreneurs were truly talented at business administration, sales, and growth; but the majority were just people with ideas, and didn't manage the capital influx prudently. Additionally, many dot-com business plans were predicated on the assumption that by using the Internet, they would bypass the distribution channels of existing businesses and therefore not have to compete with them; when the established businesses with strong existing brands developed their own Internet presence, these hopes were shattered, and the newcomers were left attempting to break into markets dominated by larger, more established businesses. Many did not have the ability to do so.
+
+The dot-com bubble burst on March 10, 2000, when the technology heavy NASDAQ Composite index peaked at 5048.62 (intra-day peak 5132.52), more than double its value just a year before. By 2001, the bubble's deflation was running full speed. A majority of the dot-coms had ceased trading, after having burnt through their venture capital, often without ever making a gross profit.
+
+
+[edit] Recent trends
+This article or section does not adequately cite its references or sources.
+Please help improve this article by adding citations to reliable sources. (help, get involved!)
+Any material not supported by sources may be challenged and removed at any time. This article has been tagged since April 2007.
+The World Wide Web has led to a widespread culture of individual self publishing and co-operative publishing. The moment to moment accounts of blogs, photo publishing Flickr and the information store of Wikipedia are a result of the open ease of creating a public website. One of the fastest growing websites, YouTube offers user generated videos so instead of consuming data from the website, users produce. This is a new form of interactivity that has changed the way we use the internet. In addition, the communication capabilities of the internet are being realised with VOIP telephone services such as Skype, Vonage, or ViaTalk. Increasingly complex on-demand content provision have led to the delivery of all forms of media, including those that had been found in the traditional media forms of newspapers, radio, television and movies, via the Internet. The Internet's peer-to-peer structure has also influenced social and economic theory, most notably with the rise of file sharing.
+
+
+[edit] Notable malfunctions and attacks
+Morris worm — November 2, 1988 
+Predicted Y2K Bug - January 1, 2000 
+UUNet/Worldcom backbone difficulties — October 3, 2002 
+2002 DNS Backbone DDoS — October 22, 2002 
+SQL Slammer worm — January 24, 2003 
+DNS Backbone DDoS Attacks 
+
+[edit] Footnotes
+^ J. C. R. Licklider (1960). "Man-Computer Symbiosis". 
+^ An Internet Pioneer Ponders the Next Revolution. An Internet Pioneer Ponders the Next Revolution. Retrieved on November 25, 2005. 
+^ About Rand. Paul Baran and the Origins of the Internet. Retrieved on January 14, 2006. 
+^ "The history of the Internet," http://www.lk.cs.ucla.edu/personal_history.html 
+^ Hafner, Katie (1998). Where Wizards Stay Up Late: The Origins Of The Internet. Simon & Schuster. 0-68-483267-4.  
+^ Ronda Hauben (2001). "From the ARPANET to the Internet". 
+^ 
+^ Events in British Telecomms History. Events in British TelecommsHistory. Retrieved on November 25, 2005. 
+^ Barry M. Leiner, Vinton G. Cerf, David D. Clark, Robert E. Kahn, Leonard Kleinrock, Daniel C. Lynch, Jon Postel, Larry G. Roberts, Stephen Wolff (2003). "A Brief History of the Internet". 
+^ Jon Postel, NCP/TCP Transition Plan, RFC 801 
+^ David Roessner, Barry Bozeman, Irwin Feller, Christopher Hill, Nils Newman (1997). "The Role of NSF's Support of Engineering in Enabling Technological Innovation". 
+^ Tanenbaum, Andrew S. (1996). Computer Networks. Prentice Hall. 0-13-394248-1.  
+^ Mike Muuss (5th January 1982). "Aucbvax.5690 TCP-IP Digest, Vol 1 #10". fa.tcp-ip. (Google Groups). 
+^ Ben Segal (1995). "A Short History of Internet Protocols at CERN". 
+^ Internet History in Asia. 16th APAN Meetings/Advanced Network Conference in Busan. Retrieved on December 25, 2005. 
+^ A brief history of the Internet in China. China celebrates 10 years of being connected to the Internet. Retrieved on December 25, 2005. 
+^ DDN NIC. IAB Recommended Policy on Distributing Internet Identifier Assignment. Retrieved on December 26, 2005. 
+^ GSI-Network Solutions. TRANSITION OF NIC SERVICES. Retrieved on December 26, 2005. 
+^ NIS Manager Award Announced. NSF NETWORK INFORMATION SERVICES AWARDS. Retrieved on December 25, 2005. 
+^ The Risks Digest. Great moments in e-mail history. Retrieved on April 27, 2006. 
+^ The History of Electronic Mail. The History of Electronic Mail. Retrieved on December 23, 2005. 
+^ The First Network Email. The First Network Email. Retrieved on December 23, 2005. 
+^ Vannevar Bush (1945). "As We May Think". 
+^ Douglas Engelbart (1962). "Augmenting Human Intellect: A Conceptual Framework". 
+^ The Early World Wide Web at SLAC. The Early World Wide Web at SLAC : Documentation of the Early Web at SLAC. Retrieved on November 25, 2005. 
+^ http://www.livinginternet.com/w/wi_mosaic.htm 
+^ http://www.totic.org/nscp/demodoc/demo.html 
+^ http://www.cs.washington.edu/homes/lazowska/faculty.lecture/innovation/gore.html 
+^ http://www.digitalcenter.org/webreport94/apph.htm 
+
+[edit] References
+Campbell-Kelly, Martin; Aspray, William. Computer: A History of the Information Machine. New York: BasicBooks, 1996. 
+Graham, Ian S. The HTML Sourcebook: The Complete Guide to HTML. New York: John Wiley and Sons, 1995. 
+Krol, Ed. Hitchhiker's Guide to the Internet, 1987. 
+Krol, Ed. Whole Internet User's Guide and Catalog. O'Reilly & Associates, 1992. 
+Scientific American Special Issue on Communications, Computers, and Networks, September, 1991 
+
+[edit] External links
+The History Of The Internet. The History Of The Internet. Retrieved on January 30, 2007. 
+Thomas Greene, Larry Landweber, George Strawn (2003). "A Brief History of NSF and the Internet". 
+Internet History:People. Internet History People. Retrieved on July 3, 2006. 
+Internet History Timeline. Internet History Timeline. Retrieved on November 25, 2005. 
+Internet History. Internet History. Retrieved on November 25, 2005. 
+Hobbes' Internet Timeline v8.1. Retrieved on November 25, 2005. 
+The History of the Internet at About.com 
+"Overhearing the Internet" —by Robert Wright, The New Republic, 1993 
+Retrieved from "http://en.wikipedia.org/wiki/History_of_the_Internet"

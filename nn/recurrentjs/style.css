@@ -1,0 +1,67 @@
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #333;
+	padding: 20px;
+}
+#argmax {
+	background-color: #DFD;
+}
+#ppl {
+	color: #090;
+	font-size: 20px;
+}
+#epoch {
+	color: #900;
+	font-size: 20px;
+}
+.apred {
+	padding: 2px;
+	margin: 5px;
+	overflow: hidden;
+	height: 20px;
+	font-size: 14px;
+}
+#prepro_status {
+	background-color: #FFD;
+	padding: 5px;
+}
+#status {
+	padding: 2px;
+	margin-top: 5px;
+}
+#controls {
+	margin: 5px;
+}
+.theslider {
+	width:90%;
+	display: inline-block;
+}
+.slider_value {
+	width: 9%;
+	display: inline-block;
+}
+#wrap {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 200px;
+}
+.abutton {
+	width: 120px;
+	height: 30px;
+	margin: 10px 10px 10px 0px;
+}
+.hh {
+	background-color: #EEE;
+	padding: 5px;
+	margin-top: 5px;
+	border-bottom: 1px solid #999;
+	margin-bottom: 2px;
+}
+#pplgraph {
+	float: right;
+}
+#intro {
+	text-align: justify;
+}

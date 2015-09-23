@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://rednuht.org/genetic_cars_2/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>HTML5 Genetic Algorithm 2D Car Thingy - Chrome recommended</title>
+    <style>@import 'style.css'</style>
+  <style type="text/css"></style></head>
+  <body>
+    <canvas id="mainbox" width="800" height="400"></canvas>
+    <div id="graphholder">
+      <canvas id="graphcanvas" width="400" height="250"></canvas>
+      <div class="scale" id="s100">250</div>
+      <div class="scale" id="s75">187</div>
+      <div class="scale" id="s50">125</div>
+      <div class="scale" id="s25">62</div>
+      <div class="scale" id="s0">0</div>
+    </div>
+    <div id="minimapholder">
+      <!--<img src="reddot.png" id="minimapmarker" />-->
+      <div id="minimapfog" style="width: 395px;"></div>
+      <canvas id="minimap" width="800" height="200"></canvas>
+      <div id="minimapcamera" style="width: 36px; height: 18px; left: 28px; top: 90px;"></div>
+    <div name="minimapmarker" class="minimapmarker" id="bar0" style="padding-top: 0px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(68, 68, 204); left: 40px;">0</div><div name="minimapmarker" class="minimapmarker" id="bar1" style="padding-top: 9px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 24px;">1</div><div name="minimapmarker" class="minimapmarker" id="bar2" style="padding-top: 18px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 17px;">2</div><div name="minimapmarker" class="minimapmarker" id="bar3" style="padding-top: 27px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 22px;">3</div><div name="minimapmarker" class="minimapmarker" id="bar4" style="padding-top: 36px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 32px;">4</div><div name="minimapmarker" class="minimapmarker" id="bar5" style="padding-top: 45px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 24px;">5</div><div name="minimapmarker" class="minimapmarker" id="bar6" style="padding-top: 54px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 35px;">6</div><div name="minimapmarker" class="minimapmarker" id="bar7" style="padding-top: 63px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 14px;">7</div><div name="minimapmarker" class="minimapmarker" id="bar8" style="padding-top: 72px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 46px;">8</div><div name="minimapmarker" class="minimapmarker" id="bar9" style="padding-top: 81px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 44px;">9</div><div name="minimapmarker" class="minimapmarker" id="bar10" style="padding-top: 90px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 17px;">10</div><div name="minimapmarker" class="minimapmarker" id="bar11" style="padding-top: 99px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 14px;">11</div><div name="minimapmarker" class="minimapmarker" id="bar12" style="padding-top: 108px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 17px;">12</div><div name="minimapmarker" class="minimapmarker" id="bar13" style="padding-top: 117px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 18px;">13</div><div name="minimapmarker" class="minimapmarker" id="bar14" style="padding-top: 126px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 30px;">14</div><div name="minimapmarker" class="minimapmarker" id="bar15" style="padding-top: 135px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 15px;">15</div><div name="minimapmarker" class="minimapmarker" id="bar16" style="padding-top: 144px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 39px;">16</div><div name="minimapmarker" class="minimapmarker" id="bar17" style="padding-top: 153px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 16px;">17</div><div name="minimapmarker" class="minimapmarker" id="bar18" style="padding-top: 162px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 16px;">18</div><div name="minimapmarker" class="minimapmarker" id="bar19" style="padding-top: 171px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(204, 68, 68); left: 22px;">19</div></div>
+    <div id="topscoreholder">
+    <input type="button" value="View top replay" onclick="cw_toggleGhostReplay(this)"><br>
+      <div id="topscores">Top Scores:<br>#1: 125.32 d:120.12 h:-7.65/4m (gen 3)<br>#2: 124.04 d:118.81 h:-7.25/1.85m (gen 1)<br>#3: 123.85 d:117.35 h:-7.48/4m (gen 2)<br>#4: 41.16 d:37.85 h:0/3.46m (gen 0)<br></div>
+    </div>
+    <div id="debug"></div>
+    <div id="data">
+<br>
+      <input type="button" value="Surprise!" onclick="toggleDisplay()">
+      <input type="button" value="New Population" onclick="cw_resetPopulation()">
+      <div>
+        Create new world with seed:
+        <input type="text" value="Enter any string" id="newseed">
+        <input type="button" value="Go!" onclick="cw_confirmResetWorld()">
+      </div>
+      <div>
+        Mutation rate:
+        <select id="mutationrate" onchange="cw_setMutation(this.options[this.selectedIndex].value)">
+          <option value="0">0%</option>
+          <option value="0.01">1%</option>
+          <option value="0.02">2%</option>
+          <option value="0.03">3%</option>
+          <option value="0.04">4%</option>
+          <option value="0.05" selected="selected">5%</option>
+          <option value="0.1">10%</option>
+          <option value="0.2">20%</option>
+          <option value="0.3">30%</option>
+          <option value="0.4">40%</option>
+          <option value="0.5">50%</option>
+          <option value="0.75">75%</option>
+          <option value="1.0">100%</option>
+        </select>
+      </div>
+      <div>
+        Mutation size:
+        <select id="mutationsize" onchange="cw_setMutationRange(this.options[this.selectedIndex].value)">
+          <option value="0">0%</option>
+          <option value="0.01">1%</option>
+          <option value="0.02">2%</option>
+          <option value="0.03">3%</option>
+          <option value="0.04">4%</option>
+          <option value="0.05">5%</option>
+          <option value="0.1">10%</option>
+          <option value="0.2">20%</option>
+          <option value="0.3">30%</option>
+          <option value="0.4">40%</option>
+          <option value="0.5">50%</option>
+          <option value="0.75">75%</option>
+          <option value="1.0" selected="selected">100%</option>
+        </select>
+      </div>
+      <div>
+        Floor:
+        <select id="floor" onchange="cw_setMutableFloor(this.options[this.selectedIndex].value)">
+          <option value="0" selected="selected">fixed</option>
+          <option value="1">mutable</option>
+        </select>
+      </div>
+      <div>
+        Gravity:
+        <select id="gravity" onchange="cw_setGravity(this.options[this.selectedIndex].value)">
+          <option value="24.8">Jupiter (24.8)</option>
+          <option value="11.2">Neptune (11.2)</option>
+          <option value="10.4">Saturn (10.4)</option>
+          <option value="9.81" selected="selected">Earth (9.81)</option>
+          <option value="8.9">Venus (8.9)</option>
+          <option value="8.7">Uranus (8.7)</option>
+          <option value="3.7">Mars/Mercury (3.7)</option>
+          <option value="1.6">Moon (1.6)</option>
+        </select>
+      </div>
+	  <div>
+        Elite clones:
+        <select id="elitesize" onchange="cw_setEliteSize(this.options[this.selectedIndex].value)">
+          <option value="0">0</option>
+          <option value="1" selected="selected">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+      <div id="generation">generation 4</div>
+      <div id="population">cars alive: 20</div>
+      <div id="distancemeter">distance: 10.22 meters<br>height: 1.18 meters</div>
+      <input type="button" value="Watch Leader" onclick="cw_setCameraTarget(-1)">
+      <div id="health"><div name="healthbar" class="healthbar" onclick="cw_setCameraTarget(this.car_index)"></div></div>
+      <div id="cars"></div>
+    </div>
+    <div id="explanation">
+      <h3>GitHub</h3>
+      The code is now on a <a href="https://github.com/red42/HTML5_Genetic_Cars">GitHub repository</a>. Feel free to contribute!
+      <h3>Controls</h3>
+      Suprise: Toggles drawing, makes the simulation faster.<br>
+      New Population: Keeps the generated track and restarts the whole car population.<br>
+      Create new world with seed: The same seed always creates the same track, so you can agree on a seed with your friends and compete. :)<br>
+      Mutation rate: The chance that each gene in each individual will mutate to a random value when a new generation is born.<br>
+      Mutation size: The range each gene can mutate into. Lower numbers mean the gene will have values closer to the original.<br>
+      Floor: If set to mutable, a new terrain will be generated each round.<br>
+      Gravity: Enjoy the freedom of driving on the moon, you cheater!<br>
+      Elite clones: The top n cars that will be copied over to the next generation.<br>
+      View top replay: Pause the current simulation and show the top performing car. Click a second time to resume simulation.
+      <h3>Graph</h3>
+      Red: Top score in each generation.<br>
+      Green: Average of the top 10 cars in each generation.<br>
+      Blue: Average of the entire generation.
+      <h3>But what is it?</h3>
+      The program uses a simple genetic algorithm to evolve random two-wheeled shapes into cars over generations. Loosely based on <a href="http://boxcar2d.com/">BoxCar2D</a>, but
+      written from scratch, only using the same physics engine (<a href="http://box2d.org/">box2d</a>).<br>
+      seedrandom.js written by <a href="http://davidbau.com/">David Bau</a>. (thanks!)
+      <h3>Genome</h3>
+      The genome consists of:<br>
+      - Shape: (8 genes, 1 per vertex)<br>
+      - Wheel size: (2 genes, 1 per wheel)<br>
+      - Wheel position: (2 genes, 1 per wheel)<br>
+      - Wheel density: (2 genes, 1 per wheel) darker wheels mean denser wheels<br>
+      - Chassis density: (1 gene) darker body means denser chassis
+      <h3>Blurb</h3>
+      This is not as deterministic as it should be, so your best car may not perform as well as it once did. The terrain gets more complex with distance.<br>
+      Written by <a href="http://rednuht.org/">this guy</a>.<br>
+      <a href="mailto:rednuht@rednuht.org">Send me food</a>.
+    </div>
+    
+    
+
+    <script src="js/seedrandom.js"></script>
+    <script src="js/box2d.js"></script>
+    <script src="js/ghost.js"></script>
+    <script src="js/path.js"></script>
+    <script src="js/cawro.js"></script>
+    <script src="js/graphs.js"></script>
+  
+
+</body></html>

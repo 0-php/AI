@@ -1,0 +1,78 @@
+<!-- saved from url=(0054)http://icefox.github.com/javascript_genetic_algorithm/ -->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Javascript Genetic Algorithm</title>
+	<script src='../../../../lib/js/jquery/jquery.js'></script>
+	<script src='../../../../lib/js/fn/math.js'></script>
+	<script src="js/genetic.js"></script>
+	<!--<script src="js/progs/salesman.js"></script>-->
+	<script>
+		function start(){
+			/*$.get('scripts.php', { action:'get_script', script:$('#fitness :selected').val() }, function(data){
+				f = new(eval(data));
+				run(f);
+			});*/
+			Genetic.run(eval(program));
+		}
+		$(function(){
+			/*$.get('scripts.php', { action:'get_scripts_list' }, function(data){
+				data = JSON.parse(data);
+				options_html = '';
+				for(var d in data)
+					options_html += "<option value='" + data[d] + "'>" + data[d] + "</option>";
+				$('#fitness').html(options_html);
+			});*/
+			program = 'guess_digit'; //salesman, guess_digit
+			//program = 'salesman';
+			
+			head = document.getElementsByTagName('head')[0];
+			s = document.createElement('script');
+			s.src = 'js/progs/' + program + '.js';
+			head.appendChild(s);
+			$('#fitness').html('<option>' + program);			
+		});
+	</script>
+</head>
+<body>
+<h1>JavaScript Genetic Algorithm</h1>
+A small example showing off a genetic algorithm implementation in JavaScript. The algorithm takes the JavaScript object from the text box and determine what values should be passed to the fitness function to produce the smallest resulting value.
+<p>
+</p>
+<form>
+Fitness program:
+<select id='fitness'></select><br>
+Number of generations:
+<input type="text" name="generations" size="6" value="100"> <a href="http://en.wikipedia.org/wiki/Genetic_algorithm#Reproduction">[?]</a><br>
+Number of chromosomes in the population:
+<input type="text" name="populationSize" size="6" value="100"> <a href="http://en.wikipedia.org/wiki/Chromosome_(genetic_algorithm)">[?]</a><br>
+Mutation rate:
+<input type="text" name="mutationRate" size="4" value="0.05">% <a href="http://en.wikipedia.org/wiki/Mutation_(genetic_algorithm)">[?]</a><br>
+Crossover rate:
+<input type="text" name="crossoverRate" size="4" value="0.75">% <a href="http://en.wikipedia.org/wiki/Crossover_(genetic_algorithm)">[?]</a><br>
+<input type='button' value='Run' onclick="start()"></input>
+<h3>Results</h3>
+Bit string: <span id='bitstring'></span>
+Chromosome: <input type="text" name="best">
+Fitness: <input type="text" name="maxFitness">
+</form>
+<span id='result'></span>
+<p>
+<canvas id="graph" style="border: solid 1px black; width: 500px; height: 150px;">History Graph</canvas>
+</p><p id="graphdata"><p>
+<canvas id="bestimage" style="border: solid 1px black; width: 500px; height: 150px;"></canvas>
+</p><p>
+Useful Links:
+</p><ul>
+<li><a href="http://www.amazon.com/exec/obidos/ASIN/0201157675/wwwicefoxnet-20">Genetic Algorithms in Search, Optimization, and Machine Learning by David E Goldberg on Amazon</a>
+</li><li>
+<a href="http://books.google.com/books?id=0eznlz0TF-IC&dq=melanie+mitchell+genetic+algorithms&pg=PP1&ots=sdqG3X15Pf&sig=_shi5BWrDHu1G5z4dqwvMkZ_dzs&prev=http://www.google.com/search%3Fq%3Dmelanie%2Bmitchell%2Bgenetic%2Balgorithms%26start%3D0%26ie%3Dutf-8%26oe%3Dutf-8%26client%3Dfirefox-a%26rls%3Dorg.mozilla:es-ES:official&sa=X&oi=print&ct=result&cd=2#PPP1,M1">
+An Introduction to Genetic Algorithms By Melanie Mitchell on Google books</a>
+</li><li>
+<a href="http://books.google.com/books?id=RRKo9xVFW_QC&pg=PR7&ots=LpqMM5RE2E&dq=gusz+eiben+genetic+algorithms&sig=cQA4wzHw0MkNiwAjioYyseE_u6Y#PPP1,M1">Introduction to Evolutionary Computing By A.E. Eiben &amp; J.E. Smith on Google books</a>
+</li><li><a href="js/genetic.js">Source code to the genetic algorithm javascript code used on this page.</a>
+</li><li><a href="http://en.wikipedia.org/wiki/Genetic_algorithm">Genetic Algorithms on Wikipedia</a>
+
+</li></ul>
+</body>
+</html>

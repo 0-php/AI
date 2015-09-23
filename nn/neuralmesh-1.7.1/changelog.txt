@@ -1,0 +1,31 @@
+==========
+CHANGE LOG
+==========
+
+1.7.1
+
+23/03/2010 - Fixed a bug in the controller that was looking for the saveCache method in the model rather than the cache proxy
+
+1.7.0
+
+22/03/2010 - Better proxy logic. One for each table. (Louis Stowasser)
+22/03/2010 - Input method should be ranges and not explicitly 0,1. Find new way other than str_split(). explode on '|' (Louis Stowasser)
+22/02/2010 - History exhausts memory, add a limit of 100 or so (Louis Stowasser)
+22/03/2010 - Use PDO (Louis Stowasser)
+22/03/2010 - Implement Hans G. Doller's bar graph. (Louis Stowasser)
+17/03/2010 - Reword supervised vs unsupervised. Make it 'offline' vs 'online'. (Louis Stowasser)
+17/03/2010 - Implement bipolar (Louis Stowasser)
+17/03/2010 - Add a network, change to "Hidden" not "Neurons" (Louis Stowasser)
+16/03/2010 - Do not allow duplicate pattern/output definition in trainset (Christopher Klein)
+16/03/2010 - Check for gzcompress/gzuncompress (Christopher Klein, Louis Stowasser)
+16/03/2010 - You are not able to delete your own user from user list (Christopher Klein, Louis Stowasser)
+16/03/2010 - Fixed column length for networks.authkey to varchar(40) (Christopher Klein)
+15/03/2010 - Added a changelog (Louis Stowasser. http://neuralmesh.com)
+
+==========
+DEVELOPERS
+==========
+
+Louis Stowasser, http://neuralmesh.com
+Christopher Klein, http://wap.ecw.de | http://twitter.com/schakko
+Hans G. Doller

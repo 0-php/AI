@@ -1,0 +1,22 @@
+{
+  "name": "tesseract.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Tesseract.js",
+  "dependencies": {
+    "level-js": "^2.1.6",
+    "pako": "^0.2.7",
+    "tesseract.js-core": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naptha/tesseract.js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naptha/tesseract.js/issues"
+  },
+  "homepage": "https://github.com/naptha/tesseract.js"
+}

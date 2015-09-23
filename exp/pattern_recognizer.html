@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Pattern recognizer</title>
+	<script src='../../lib/js/fn/utility.js'></script>
+	<script src='../../lib/js/fn/math.js'></script>
+	<script src='classes/pattern_recognizer.js'></script>
+	<script src='../../lib/js/jquery/jquery.js'></script>
+	<script>
+		data = {
+			'input': ['1+1','2+2','4+4','5+5','9+9','3+2','2+3','5+1','4+7'],
+			'output': ['02','04','08','10','18','05','05','06','11']
+		}
+		learner = pattern_recognizer;
+		learner.init(data);
+		function learn(){
+			output = learner.learn();
+		}
+	</script>
+</head>
+<body>
+	<input id='input' disabled></input>
+	<button onclick="learn($('#input').val())">Learn</button>
+	<span style='color:#969696'>6 symbols of arithmetic equation. Examples: 2+2=04, 4+4=08, 5+5=10, 9+9=18</span>
+	<div id='output'></div>
+</body>
+</html>

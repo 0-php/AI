@@ -1,0 +1,136 @@
+html, body, h1, form, fieldset, legend, ol, li {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    padding-bottom: 5px;
+}
+body {
+    background: #ffffff;
+    color: #111111;
+    padding: 20px;
+}
+
+div#sidebar {
+    /*float: left;*/
+    /*background: #827;*/
+    /*padding-bottom: 20px;
+    margin-right: 10px;*/
+    padding-left: 10px;
+}
+
+div#sidebarHideable {
+    /* width: 15em; */
+}
+
+div#main {
+    float: left;
+    width: 60em;
+    /*background: #123;*/
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+div#output {
+    clear: both;
+    /*background: #912;*/
+}
+
+form {
+    background: #ccc;
+    padding: 1px;
+    margin: 10px;
+    margin-bottom: 1px;
+    width: 53em;
+    /* font-size: 80%; */
+}
+
+form fieldset {
+    border: none;
+    margin-bottom: 5px;
+}
+form fieldset:last-of-type {
+    margin-bottom: 0px;
+}
+
+form legend {
+    font-size: 120%;
+    padding-bottom: 5px;
+    text-shadow: 0 1px 1px #c0d576;
+}
+
+form fieldset fieldset legend {
+    color: #111111;
+    font-weight: normal;
+    padding-bottom: 0;
+}
+
+form ol li {
+    background: #b9cf6a;
+    background: rgba(255,255,255,.8);
+    border-color: #e3ebc3;
+    border-color: rgba(255,255,255,.6);
+    border-style: solid;
+    border-width: 1px;
+    list-style: none;
+    padding: 2px 5px;
+    margin-bottom: 1px;
+}
+
+form ol ol li {
+    background: none;
+    border: none;
+    float: left;
+}
+
+form label.cname {
+    float: left;
+    text-align: right;
+    width: 10em;
+    padding: 2px;
+}
+
+form .tip {
+    float: right;
+    width: 35em;
+    font-size: 90%;
+    color: #666;
+}
+
+form input:not([type=radio]) {
+    background: #ffffff;
+    border: none;
+    outline: none;
+    padding: 2px;
+    width: 5em;
+    text-align: center;
+}
+form input:not([type=submit]):focus {
+    background: #66ddff;
+}
+form input[type=radio] {
+    float: left;
+    margin-right: 5px;
+}
+form div.btn {
+    text-align: center;
+}
+
+#toggleAbout {
+    font-size: 40%;
+}
+
+canvas {
+    vertical-align: top;
+}
+
+counters {
+    vertical-align: top;
+    font-family: sans-serif;
+    font-size: 50%; 
+}
+
+#permalink {
+    font-size: 80%;
+    float: right;
+}

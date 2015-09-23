@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://29a.ch/sandbox/2010/js1k/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Demonstrating evolution by natural selection in 999b</title>
+<meta charset="utf-8">
+</head>
+<body style="background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(252, 221, 68); background-position: initial initial; background-repeat: initial initial; ">
+<canvas id="c" width="320" height="320"></canvas>
+<script>
+var M = Math,
+    random = M.random,
+    canvas = document.getElementById('c'),
+    ctx = canvas.getContext('2d'),
+    population = [],
+    env = random()*(1<<24)<<0,
+    subject,
+    popsize=64,
+    cols=8,
+    cell=32,
+    size=(cols+2)*cell,
+    r,g,b,
+    r_ = (env&0xff0000)>>16,
+    g_ = (env&0xff00)>>8,
+    b_ = env&0xff,
+    fitness,
+    i;
+canvas.width = size;
+canvas.height = size;
+ctx.shadowBlur = 10;
+for(i=0; i<popsize; i++) {
+    population.push(random()*(1<<24)<<0)
+}
+function color(s) {
+    s=s.toString(16);
+    while(s.length<6) s='0'+s;
+    return '#'+s;
+}
+document.body.style.background=color(env);
+setInterval((function() {
+    ctx.clearRect(0,0,size,size);
+    for(i=0;i<popsize;i++){
+        subject=population[i];
+        r = r_-((subject&0xff0000)>>16);
+        g = g_-((subject&0xff00)>>8);
+        b = b_-(subject&0xff);
+        fitness=M.sqrt(r*r+g*g+b*b)/443;
+        if(random()<fitness){
+            // subject died, breed new one
+            subject = population[i] = (
+                // breed
+                ((population[random()*popsize<<0]&0xfff000)|
+                (population[random()*popsize<<0]&0xfff))
+                // Mutate
+                ^(1<<(random()*24<<0))
+            );
+        }
+        ctx.fillStyle = color(subject);
+        ctx.fillRect(1+(i%cols)<<5, 1+(i/cols)<<5, cell, cell);
+    }
+}), 100);
+</script>
+</body></html>

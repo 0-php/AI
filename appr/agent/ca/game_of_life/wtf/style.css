@@ -1,0 +1,68 @@
+.alive {
+	color: green;
+	width: 15px;
+	font-weight: bold;
+	font-size: .8em;
+	background-color: green;
+	text-align: center;
+	border: 1px dotted black;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.dead {
+	color: gray;
+	width: 15px;
+	font-weight: bold;
+	font-size: .8em;
+	border: 1px dotted black;
+	background-color: gray;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.almostdead {
+	color: blue;
+	width: 15px;
+	font-weight: bold;
+	font-size: .8em;
+	border: 1px dotted black;
+	background-color: blue;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+#console {
+	position: absolute;
+	top: 25px;
+	right: 150px;
+	height: 240px;
+	width: 260px;
+	z-index: 1000;
+}
+
+span:hover {
+	color: orange;
+	background-color: orange;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+
+#maximize {
+	background-color: white;
+	border: 1px solid black;
+}
+
+#minimize {
+	background-color: white;
+	border: 1px solid black;
+	width: 75px;
+}

@@ -1,0 +1,57 @@
+<!-- saved from url=(0077)http://demos.wiznaibus.com/cellularautomata/cellularAutomatav2.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel='stylesheet' href='style.css'></link>
+<script src="../../../../lib/js/jquery/jquery.js"></script>
+<script src="life.js"></script>
+<script>
+/**
+ * jquery functions.  Used in the event that the control panel is covering up part of the grid
+ */
+var name = "#console";
+var menuYloc = null;
+
+$(document).ready(function(){
+	menuYloc = parseInt($(name).css("top").substring(0,$(name).css("top").indexOf("px")))
+	$(window).scroll(function () { 
+		offset = menuYloc+$(document).scrollTop()+25+"px";
+		$(name).animate({top:offset},{duration:300,queue:false});
+	});
+});
+
+function minimize(){
+	$("#maximize").hide("slow");
+	$("#minimize").show("fast");
+}
+function maximize(){
+	$("#maximize").show("slow");
+	$("#minimize").hide("fast");
+}
+</script>
+</head>
+<body onload="Main()">
+<div id="board"></div>
+<div id="console">
+<div id="maximize" style="display: block; "><a href="#" onclick="minimize();" style="font-size: .8em;">Minimize this window</a><br>
+<br>
+Directions: <br>
+Click on a cell to change its state, and then click 'Animate.'
+<hr>
+Color values:<br>
+<span style="color: green;">Alive</span><br>
+<span style="color: blue;">Almost Dead</span><br>
+<span style="color: gray;">Dead</span>
+<hr>
+Setup Type: <select id="boardType" onchange="setupNewBoard(this.value);">
+	<option value="blinker">blinker</option>
+	<option value="glider">glider</option>
+	<option value="flower">flower</option>
+</select><br>
+Grid Size: x:<input type="text" id="xsize" value="25" size="5"> y:<input type="text" id="ysize" size="5" value="25"><br>
+<input type="button" onclick="newXY();" value="Resize"><br>
+<a href="#" onclick="NextStep(Board);">Next Generation</a>
+<div style="display: inline;" id="generation">0</div>
+<br>
+<a href="#" onclick="startAnimation(); Animate(Board);">Animate</a>| <a href="#" onclick="stopAnimation();">Okay, that's enough animation</a></div>
+<div id="minimize" style="display: none; "><a href="#" onclick="maximize();" style="font-size: .8em;">Maximize</a></div>
+</div>
+</body></html>
